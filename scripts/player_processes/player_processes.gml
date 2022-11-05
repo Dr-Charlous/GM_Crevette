@@ -6,20 +6,33 @@ function reset_variables()
 	down	= 0;
 	hmove   = 0;
 	vmove   = 0;
+	
+	if gamepad_is_connected(0) {
+		cursor_sprite = noone;
+	} else {
+		cursor_sprite = s_cursor;
+	}
 }
 
 function get_input()
 {
-	if(keyboard_check(ord("Q"))) left	= 1;
-	if(keyboard_check(ord("D"))) right	= 1;
-	if(keyboard_check(ord("Z"))) up		= 1;
-	if(keyboard_check(ord("S"))) down	= 1;
+	if (gamepad_is_connected(0)) {
+		hmove = gamepad_axis_value(0, gp_axislh);
+		vmove = gamepad_axis_value(0, gp_axislv);
+	} else {
+		if(keyboard_check(ord("Q"))) left	= 1;
+		if(keyboard_check(ord("D"))) right	= 1;
+		if(keyboard_check(ord("Z"))) up		= 1;
+		if(keyboard_check(ord("S"))) down	= 1;
+		hmove = right - left;
+		vmove = down - up;
+	}
 }
 
 function calc_movement()
 {
-	hmove = right - left;
-	vmove = down - up;
+	//hmove = right - left;
+	//vmove = down - up;
 	
 	var _facing = (aim_dir < 90 or aim_dir > 270);
 	if(_facing == 0)
@@ -30,7 +43,11 @@ function calc_movement()
 	{
 		if candash
 		{
-		    if keyboard_check(vk_space)
+			if gamepad_is_connected(0)
+				button_dash = gamepad_button_check(0, gp_shoulderl);
+				else
+				button_dash = keyboard_check(vk_space);
+		    if button_dash
 		    {
 		        candash = false;
 		        alarm[1] = 5;
@@ -50,7 +67,11 @@ function calc_movement()
 		y += vmove;
 	}
 	
-	aim_dir = point_direction(x, y, mouse_x, mouse_y);
+	if gamepad_is_connected(0) {
+		aim_dir = point_direction(x, y, x+gamepad_axis_value(0, gp_axisrh), y+gamepad_axis_value(0, gp_axisrv));
+	} else {
+		aim_dir = point_direction(x, y, mouse_x, mouse_y);
+	}
 	my_bow.image_angle = aim_dir;
 }
 
@@ -81,7 +102,12 @@ function collision()
 
 function anim()
 {
-	if(mouse_check_button_pressed(mb_right)) {
+	if gamepad_is_connected(0) {
+		button_change = gamepad_button_check_pressed(0, gp_shoulderr);
+	} else {
+		button_change = mouse_check_button_pressed(mb_right);
+	}
+	if(button_change) {
 		if cplayer {
 		sp_idle = s_player_idle1; 
 		sp_walk = s_player_walk1; 
@@ -118,13 +144,23 @@ function anim()
 
 function check_fire()
 {
-	if(mouse_check_button(mb_left))
+	if gamepad_is_connected(0) {
+		button_shoot = gamepad_button_check(0, gp_shoulderrb);
+	} else {
+		button_shoot = mouse_check_button(mb_left)
+	}
+	
+	if(button_shoot)
 	{
 		if(can_fire)
 		{
 			can_fire = false;
 			alarm[0] = fire_rate;
-			var _dir = point_direction(x, y, mouse_x, mouse_y);
+			if gamepad_is_connected(0) {
+				var _dir = point_direction(x, y, x+gamepad_axis_value(0, gp_axisrh), y+gamepad_axis_value(0, gp_axisrv));
+			} else {
+				var _dir = point_direction(x, y, mouse_x, mouse_y);
+			}
 			if cplayer {
 				var _inst = instance_create_layer(x, y, "Arrow", o_arrow);
 			} else {

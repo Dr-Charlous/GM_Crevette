@@ -13,7 +13,7 @@ arrow_speed = 8;
 
 my_bow = instance_create_layer(x, y, "Instances", o_bow);
 
-cursor_sprite = s_cursor;
+//cursor_sprite = s_cursor;
 window_set_cursor(cr_none);
 
 sp_idle = s_player_idle; 
