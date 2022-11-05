@@ -1,3 +1,4 @@
+/// @description player dash
 if ftime {
 	walk_spd = 1.5;
 	ftime = false;
