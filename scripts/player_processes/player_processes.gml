@@ -44,7 +44,7 @@ function calc_movement()
 		if candash
 		{
 			if gamepad_is_connected(0)
-				button_dash = gamepad_button_check(0, gp_shoulderl);
+				button_dash = gamepad_button_check(0, gp_shoulderlb);
 				else
 				button_dash = keyboard_check(vk_space);
 		    if button_dash
