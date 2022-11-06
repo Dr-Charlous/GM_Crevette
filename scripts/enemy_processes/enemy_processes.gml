@@ -1,7 +1,7 @@
 
 function calc_movement_enemy()
 {
-	if(!collision_circle(x,y,180,o_player,false,false)) {
+	if(!collision_circle(x,y,range_view,o_player,false,false)) {
 		counter += 1;
 		if(counter >= action) {
 			var moov = irandom_range(0,5);
@@ -63,11 +63,14 @@ function anim_enemy()
 
 function check_fire_enemy()
 {	
-	if(collision_circle(x,y,120,o_player,false,false)) {
+	if(collision_circle(x,y,range_attack,o_player,false,false)) {
 		can_fire_enemy++;
 		if(can_fire_enemy >= fire_rate*2) {
 			var _dir = point_direction(x, y, o_player.x, o_player.y);
-			var _inst = instance_create_layer(x, y, "Arrow", o_arrow);
+			if enemy_type
+				var _inst = instance_create_layer(x, y, "Arrow", o_arrow);
+				else
+				var _inst = instance_create_layer(x, y, "Arrow", o_arrow1);
 			bow_dist = 2;
 			with(_inst)
 			{

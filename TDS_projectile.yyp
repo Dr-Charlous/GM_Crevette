@@ -5,9 +5,10 @@
   "resources": [
     {"id":{"name":"s_enemy","path":"sprites/s_enemy/s_enemy.yy",},"order":16,},
     {"id":{"name":"enemy_processes","path":"scripts/enemy_processes/enemy_processes.yy",},"order":1,},
+    {"id":{"name":"o_enemy_cac","path":"objects/o_enemy_cac/o_enemy_cac.yy",},"order":8,},
     {"id":{"name":"s_enemy_idle","path":"sprites/s_enemy_idle/s_enemy_idle.yy",},"order":17,},
     {"id":{"name":"o_arrow1","path":"objects/o_arrow1/o_arrow1.yy",},"order":6,},
-    {"id":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"order":7,},
+    {"id":{"name":"o_enemy_distance","path":"objects/o_enemy_distance/o_enemy_distance.yy",},"order":7,},
     {"id":{"name":"s_arrow","path":"sprites/s_arrow/s_arrow.yy",},"order":7,},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":1,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},

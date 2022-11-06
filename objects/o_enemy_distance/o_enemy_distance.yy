@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_enemy",
+  "name": "o_enemy_distance",
   "spriteId": {
     "name": "s_enemy",
     "path": "sprites/s_enemy/s_enemy.yy",

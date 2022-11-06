@@ -1,4 +1,4 @@
-walk_spd = 0.5;
+walk_spd = 1;
 facing = 1;
 candash = true;
 ftime = true;
@@ -21,3 +21,6 @@ hmove   = 0;
 vmove   = 0;
 action = 10;
 can_fire_enemy = 0;
+range_view = 200;
+range_attack = 40;
+enemy_type = false;
