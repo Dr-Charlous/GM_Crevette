@@ -1,9 +1,9 @@
-reset_variables();
+reset_variables_enemy();
 
-get_input();
+get_input_enemy();
 
-calc_movement();
+calc_movement_enemy();
 
-check_fire();
+check_fire_enemy();
 
-anim();
+anim_enemy();

@@ -1,4 +1,4 @@
-function reset_variables()
+function reset_variables_enemy()
 {
 	left	= 0;
 	right	= 0;
@@ -6,30 +6,20 @@ function reset_variables()
 	down	= 0;
 	hmove   = 0;
 	vmove   = 0;
-	
-	if gamepad_is_connected(0) {
-		cursor_sprite = noone;
-	} else {
-		cursor_sprite = s_cursor;
-	}
 }
 
-function get_input()
+function get_input_enemy()
 {
-	if (gamepad_is_connected(0)) {
-		hmove = gamepad_axis_value(0, gp_axislh);
-		vmove = gamepad_axis_value(0, gp_axislv);
-	} else {
-		if(keyboard_check(ord("Q"))) left	= 1;
-		if(keyboard_check(ord("D"))) right	= 1;
-		if(keyboard_check(ord("Z"))) up		= 1;
-		if(keyboard_check(ord("S"))) down	= 1;
-		hmove = right - left;
-		vmove = down - up;
-	}
+	var moov = irandom_range(0,5);
+	if(moov == 1) left	= 1;
+	if(moov == 2) right	= 1;
+	if(moov == 3) up		= 1;
+	if(moov == 4) down	= 1;
+	hmove = right - left;
+	vmove = down - up;
 }
 
-function calc_movement()
+function calc_movement_enemy()
 {
 	//hmove = right - left;
 	//vmove = down - up;
@@ -41,41 +31,19 @@ function calc_movement()
 	
 	if(hmove != 0 or vmove != 0)
 	{
-		if candash
-		{
-			if gamepad_is_connected(0)
-				button_dash = gamepad_button_check(0, gp_shoulderl);
-				else
-				button_dash = keyboard_check(vk_space);
-		    if button_dash
-		    {
-		        candash = false;
-		        alarm[1] = 5;
-		        walk_spd = 8;
-				var _dir = point_direction(0, 0, hmove, vmove);
-				hmove = lengthdir_x(walk_spd, _dir);
-				vmove = lengthdir_y(walk_spd, _dir);
-		    }
-		} else {
-			//correction bug diagonales
-			var _dir = point_direction(0, 0, hmove, vmove);
-			hmove = lengthdir_x(walk_spd, _dir);
-			vmove = lengthdir_y(walk_spd, _dir);
-		}
+		//correction bug diagonales
+		var _dir = point_direction(0, 0, hmove, vmove);
+		hmove = lengthdir_x(walk_spd, _dir);
+		vmove = lengthdir_y(walk_spd, _dir);
 		
 		x += hmove;
 		y += vmove;
 	}
-	
-	if gamepad_is_connected(0) {
-		aim_dir = point_direction(x, y, x+gamepad_axis_value(0, gp_axisrh), y+gamepad_axis_value(0, gp_axisrv));
-	} else {
-		aim_dir = point_direction(x, y, mouse_x, mouse_y);
-	}
+	aim_dir = point_direction(x, y, mouse_x, mouse_y);
 	my_bow.image_angle = aim_dir;
 }
 
-function collision()
+function collision_enemy()
 {
 	var _tx = x;
 	var _ty = y;
@@ -100,41 +68,17 @@ function collision()
 	}
 }
 
-function anim()
+function anim_enemy()
 {
-	if gamepad_is_connected(0) {
-		button_change = gamepad_button_check_pressed(0, gp_shoulderr);
-	} else {
-		button_change = mouse_check_button_pressed(mb_right);
-	}
-	if(button_change) {
-		if cplayer {
-		sp_idle = s_player_idle1; 
-		sp_walk = s_player_walk1; 
-		sp_hit = s_player_hit1;
-		instance_destroy(my_bow);
-		my_bow = instance_create_layer(x, y, "Instances", o_bow1);
-		aim_dir = 0;
-		bow_dist = 2;
-		fire_rate = 60;
-		can_fire = true;
-		arrow_speed = 1;
-		cplayer = false;
-		} else {
 		sp_idle = s_player_idle;
 		sp_walk = s_player_walk;
 		sp_hit = s_player_hit;
-		instance_destroy(my_bow);
-		my_bow = instance_create_layer(x, y, "Instances", o_bow);
 		aim_dir = 0;
 		bow_dist = 8;
 		fire_rate = 30;
 		can_fire = true;
 		arrow_speed = 8;
 		cplayer = true;
-		}
-		sprite_index = sp_idle;
-	}
 	
 	if(hmove != 0 or vmove != 0)
 		sprite_index = sp_walk;
@@ -142,13 +86,9 @@ function anim()
 		sprite_index = sp_idle;
 }
 
-function check_fire()
+function check_fire_enemy()
 {
-	if gamepad_is_connected(0) {
-		button_shoot = gamepad_button_check(0, gp_shoulderrb);
-	} else {
-		button_shoot = mouse_check_button(mb_left)
-	}
+	button_shoot = mouse_check_button(mb_left)
 	
 	if(button_shoot)
 	{
@@ -161,11 +101,7 @@ function check_fire()
 			} else {
 				var _dir = point_direction(x, y, mouse_x, mouse_y);
 			}
-			if cplayer {
-				var _inst = instance_create_layer(x, y, "Arrow", o_arrow);
-			} else {
-				var _inst = instance_create_layer(x, y, "Arrow", o_arrow1);
-			}
+			var _inst = instance_create_layer(x, y, "Arrow", o_arrow);
 			bow_dist = 2;
 			with(_inst)
 			{
