@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_enemy",
   "spriteId": {
-    "name": "s_ennemi",
-    "path": "sprites/s_ennemi/s_ennemi.yy",
+    "name": "s_enemy",
+    "path": "sprites/s_enemy/s_enemy.yy",
   },
   "solid": false,
   "visible": true,

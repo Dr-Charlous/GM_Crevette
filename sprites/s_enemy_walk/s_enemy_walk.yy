@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "s_ennemi_idle",
+  "name": "s_enemy_walk",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -29,12 +29,12 @@
   "gridY": 0,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d492887b-0ce3-44c5-8b3a-81671d2ba6b3",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b5fb26b8-899f-4956-ab46-b92db77ec4b5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"262f4e35-5950-4490-a8f0-d045b4c7577d",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "s_ennemi_idle",
+    "name": "s_enemy_walk",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 2.0,
@@ -46,8 +46,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ed089b0b-db4e-4f19-a273-6dfb3fa4e5a1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d492887b-0ce3-44c5-8b3a-81671d2ba6b3","path":"sprites/s_ennemi_idle/s_ennemi_idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d9eea7b3-7009-476e-971f-a4f6a81ae8e7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b5fb26b8-899f-4956-ab46-b92db77ec4b5","path":"sprites/s_ennemi_idle/s_ennemi_idle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"401d7693-d370-4452-b123-526686644cd8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d492887b-0ce3-44c5-8b3a-81671d2ba6b3","path":"sprites/s_enemy_walk/s_enemy_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"67a9edb0-fa91-4073-bb16-72da84b83483","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"262f4e35-5950-4490-a8f0-d045b4c7577d","path":"sprites/s_enemy_walk/s_enemy_walk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
