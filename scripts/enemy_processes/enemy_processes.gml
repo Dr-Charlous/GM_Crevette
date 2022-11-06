@@ -20,6 +20,10 @@ function calc_movement_enemy()
 			counter = 0;
 			action = irandom_range(10, 40);
 		}
+		//correction bug diagonales
+		var _dir = point_direction(0, 0, hmove, vmove);
+		hmove = lengthdir_x(walk_spd, _dir);
+		vmove = lengthdir_y(walk_spd, _dir);
 	} else {
 		var _dir = point_direction(x, y, o_player.x, o_player.y);
 		hmove = lengthdir_x(walk_spd, _dir);
@@ -33,17 +37,39 @@ function calc_movement_enemy()
 	
 	if(hmove != 0 or vmove != 0)
 	{
-		//correction bug diagonales
-		var _dir = point_direction(0, 0, hmove, vmove);
-		hmove = lengthdir_x(walk_spd, _dir);
-		vmove = lengthdir_y(walk_spd, _dir);
-		
 		x += hmove;
 		y += vmove;
 	}
 	
 	aim_dir = point_direction(x, y, o_player.x, o_player.y);
 	my_bow.image_angle = aim_dir;
+}
+
+function collision_enemy()
+{
+	var _tx = x;
+	var _ty = y;
+	
+	if(place_meeting(x+sign(_tx-x), y, o_solid))
+		x = xprevious;
+	if(place_meeting(x, y+sign(_ty-y), o_solid))
+		y = yprevious;
+	
+	//get distance we want to move
+	var _disx = abs(_tx - x);
+	var _disy = abs(_ty - y);
+	
+	repeat(_disx)
+	{
+		if(!place_meeting(x+sign(_tx-x), y, o_solid))
+			x += sign(_tx-x);
+	}
+	
+	repeat(_disy)
+	{
+		if(!place_meeting(x, y+sign(_ty-y), o_solid))
+			y += sign(_ty-y);
+	}
 }
 
 function anim_enemy()
