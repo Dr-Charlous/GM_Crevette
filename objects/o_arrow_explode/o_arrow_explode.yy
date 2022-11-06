@@ -1,7 +1,10 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "o_arrow_explode",
   "spriteId": {
-    "name": "s_arrow_explode",
-    "path": "sprites/s_arrow_explode/s_arrow_explode.yy",
+    "name": "Proj",
+    "path": "sprites/Proj/Proj.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "o_arrow_explode",
-  "tags": [],
-  "resourceType": "GMObject",
 }
