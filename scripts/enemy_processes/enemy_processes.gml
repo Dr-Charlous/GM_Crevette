@@ -1,4 +1,3 @@
-
 function calc_movement_enemy()
 {
 	if(!collision_circle(x,y,range_view,o_player,false,false)) {
@@ -43,6 +42,11 @@ function calc_movement_enemy()
 	
 	aim_dir = point_direction(x, y, o_player.x, o_player.y);
 	my_bow.image_angle = aim_dir;
+	
+	if life == 0 {
+		instance_destroy(my_bow);
+		instance_destroy();
+	}
 }
 
 function collision_enemy()
@@ -79,7 +83,6 @@ function anim_enemy()
 		fire_rate = 30;
 		can_fire = true;
 		arrow_speed = 8;
-		cplayer = true;
 	
 	if(hmove != 0 or vmove != 0)
 		sprite_index = sp_walk;

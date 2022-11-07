@@ -3,6 +3,7 @@ facing = 1;
 candash = true;
 ftime = true;
 cplayer = true;
+life = 10;
 
 //bow
 aim_dir = 0;
@@ -19,3 +20,6 @@ window_set_cursor(cr_none);
 sp_idle = s_player_idle; 
 sp_walk = s_player_walk; 
 sp_hit = s_player_hit;
+
+view_visible[0] = true;
+view_visible[1] = false;

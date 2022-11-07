@@ -2,7 +2,7 @@ walk_spd = 0.5;
 facing = 1;
 candash = true;
 ftime = true;
-cplayer = true;
+life = 10;
 
 //bow
 aim_dir = 0;

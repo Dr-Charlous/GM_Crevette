@@ -27,6 +27,14 @@ function get_input()
 		hmove = right - left;
 		vmove = down - up;
 	}
+	if keyboard_check_pressed(ord("C")) {
+		view_visible[0] = true;
+		view_visible[1] = false;
+	}
+	if keyboard_check_pressed(ord("V")) {
+		view_visible[0] = false;
+		view_visible[1] = true;	
+	}
 }
 
 function calc_movement()
