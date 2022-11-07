@@ -1,4 +1,4 @@
 /// @description draw correct facing
 draw_sprite_ext(sprite_index, image_index, x, y, facing, 1, 0, c_white, 1);
 
-draw_text(x,y,life);
+draw_text(x,y+10,life);

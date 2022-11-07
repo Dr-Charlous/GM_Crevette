@@ -5,4 +5,4 @@ draw_circle(x,y,range_view,true);
 draw_circle(x,y,range_attack,true);
 draw_text(x,y,"distance");
 
-draw_text(x,y,life);
+draw_text(x,y+10,life);
