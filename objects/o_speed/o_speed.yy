@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_bow1",
+  "name": "o_speed",
   "spriteId": {
-    "name": "s_bow1",
-    "path": "sprites/s_bow1/s_bow1.yy",
+    "name": "s_speed",
+    "path": "sprites/s_speed/s_speed.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "name": "Bonus",
+    "path": "folders/Objects/Bonus.yy",
   },
 }

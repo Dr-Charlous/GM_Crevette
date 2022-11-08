@@ -1,6 +1,6 @@
 /// @description player dash
 if ftime {
-	walk_spd = 1.5;
+	walk_spd = walk_spd_orgn;
 	ftime = false;
 	alarm[1] = 30;
 } else {

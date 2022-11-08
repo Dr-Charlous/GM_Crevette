@@ -59,7 +59,7 @@ function calc_movement()
 		    {
 		        candash = false;
 		        alarm[1] = 5;
-		        walk_spd = 8;
+		        walk_spd = walk_spd + 6.5;
 				var _dir = point_direction(0, 0, hmove, vmove);
 				hmove = lengthdir_x(walk_spd, _dir);
 				vmove = lengthdir_y(walk_spd, _dir);
@@ -71,8 +71,13 @@ function calc_movement()
 			vmove = lengthdir_y(walk_spd, _dir);
 		}
 		
-		x += hmove;
-		y += vmove;
+		if bonus_speed {
+			x += hmove*2;
+			y += vmove*2;
+		} else {
+			x += hmove;
+			y += vmove;
+		}
 	}
 	
 	if gamepad_is_connected(0) {
@@ -82,6 +87,27 @@ function calc_movement()
 	}
 	my_bow.image_angle = aim_dir;
 	my_bow.image_yscale = sign(_facing);
+}
+
+function bonus() {
+	if place_meeting(x,y,o_life) {
+		if life < life_max {
+			life += 2;
+			if life > life_max
+				life = life_max;
+		}
+		instance_destroy(instance_nearest(x,y,o_life));
+	}
+	if place_meeting(x,y,o_shield) {
+		alarm[2] = 300;
+		my_shield = instance_create_layer(x,y,"Instances",o_bouclier)
+		instance_destroy(instance_nearest(x,y,o_shield));
+	}
+	if place_meeting(x,y,o_speed) {
+		bonus_speed = true;
+		alarm[2] = 240;
+		instance_destroy(instance_nearest(x,y,o_speed));
+	}
 }
 
 function collision()
