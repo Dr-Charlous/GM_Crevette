@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_solid",
   "spriteId": {
-    "name": "spr_solid",
-    "path": "sprites/spr_solid/spr_solid.yy",
+    "name": "spr_Roche",
+    "path": "sprites/spr_Roche/spr_Roche.yy",
   },
   "solid": false,
   "visible": true,
