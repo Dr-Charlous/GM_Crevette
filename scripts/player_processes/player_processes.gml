@@ -77,6 +77,9 @@ function calc_movement()
 		if bonus_speed {
 			x += hmove*2;
 			y += vmove*2;
+		} if malus_para {
+			x += 0;
+			y += 0;
 		} else {
 			x += hmove;
 			y += vmove;
@@ -92,7 +95,8 @@ function calc_movement()
 	my_bow.image_yscale = sign(_facing);
 }
 
-function bonus() {
+function bonus() 
+{
 	if place_meeting(x,y,o_life) {
 		if life < life_max {
 			life += 2;
@@ -111,6 +115,11 @@ function bonus() {
 		bonus_speed = true;
 		alarm[2] = 240;
 		instance_destroy(instance_nearest(x,y,o_speed));
+	}
+	if place_meeting(x,y,o_freeze) {
+		malus_para = true;
+		alarm[2] = 240;
+		instance_destroy(instance_nearest(x,y,o_freeze));
 	}
 }
 

@@ -24,6 +24,7 @@ sp_idle = s_player_idle;
 sp_walk = s_player_walk; 
 sp_hit = s_player_hit;
 bonus_speed = false;
+malus_para = false;
 
 view_visible[0] = true;
 view_visible[1] = false;
