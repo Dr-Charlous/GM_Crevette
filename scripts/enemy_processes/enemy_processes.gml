@@ -23,10 +23,13 @@ function calc_movement_enemy()
 		var _dir = point_direction(0, 0, hmove, vmove);
 		hmove = lengthdir_x(walk_spd, _dir);
 		vmove = lengthdir_y(walk_spd, _dir);
-	} else {
+	} else if (collision_circle(x,y,range_view,o_player,false,false) and !collision_circle(x,y,range_attack,o_player,false,false)) {
 		var _dir = point_direction(x, y, o_player.x, o_player.y);
 		hmove = lengthdir_x(walk_spd, _dir);
 		vmove = lengthdir_y(walk_spd, _dir);
+	} else {
+		hmove = 0;
+		vmove = 0;
 	}
 	
 	var _facing = (aim_dir < 90 or aim_dir > 270);
