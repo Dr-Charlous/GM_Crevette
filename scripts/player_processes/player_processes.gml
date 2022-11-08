@@ -39,7 +39,7 @@ function get_input()
 
 function calc_movement()
 {
-	if other.life == 0
+	if life == 0 or life < 0
 		room_restart();
 		
 	//hmove = right - left;
