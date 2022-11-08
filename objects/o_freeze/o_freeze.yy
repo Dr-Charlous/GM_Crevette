@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_shield",
+  "name": "o_freeze",
   "spriteId": {
-    "name": "s_sheild",
-    "path": "sprites/s_sheild/s_sheild.yy",
+    "name": "s_para",
+    "path": "sprites/s_para/s_para.yy",
   },
   "solid": false,
   "visible": true,

@@ -39,6 +39,9 @@ function get_input()
 
 function calc_movement()
 {
+	if other.life == 0
+		room_restart();
+		
 	//hmove = right - left;
 	//vmove = down - up;
 	

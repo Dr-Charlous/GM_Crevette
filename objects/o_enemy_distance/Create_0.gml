@@ -1,4 +1,5 @@
-walk_spd = 0.5;
+walk_spd_orgn = 0.5;
+walk_spd = walk_spd_orgn;
 facing = 1;
 candash = true;
 ftime = true;
