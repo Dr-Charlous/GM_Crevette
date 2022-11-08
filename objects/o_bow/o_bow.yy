@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "o_bow",
   "spriteId": {
     "name": "s_bow",
     "path": "sprites/s_bow/s_bow.yy",
@@ -25,11 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Player",
+    "path": "folders/Objects/Player.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "o_bow",
-  "tags": [],
-  "resourceType": "GMObject",
 }
