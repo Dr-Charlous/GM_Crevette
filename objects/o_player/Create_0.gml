@@ -28,3 +28,4 @@ malus_para = false;
 
 view_visible[0] = true;
 view_visible[1] = false;
+audio_play_sound(snd_ambiance,1,true);

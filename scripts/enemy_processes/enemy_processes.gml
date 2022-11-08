@@ -106,10 +106,13 @@ function check_fire_enemy()
 		can_fire_enemy++;
 		if(can_fire_enemy >= fire_rate*2) {
 			var _dir = point_direction(x, y, o_player.x, o_player.y);
-			if enemy_type
+			if enemy_type {
 				var _inst = instance_create_layer(x, y, "Arrow", o_arrow);
-				else
+				audio_play_sound(snd_proj_distance,2,false);
+			} else {
 				var _inst = instance_create_layer(x, y, "Arrow", o_arrow1);
+				audio_play_sound(snd_proj_cac,2,false);
+			}
 			bow_dist = 2;
 			with(_inst)
 			{
