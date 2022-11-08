@@ -211,8 +211,10 @@ function check_fire()
 			}
 			if cplayer {
 				var _inst = instance_create_layer(x, y, "Arrow", o_arrow);
+				audio_play_sound(snd_proj_distance,2,false);
 			} else {
 				var _inst = instance_create_layer(x, y, "Arrow", o_arrow1);
+				audio_play_sound(snd_proj_cac,2,false);
 			}
 			bow_dist = 2;
 			with(_inst)
