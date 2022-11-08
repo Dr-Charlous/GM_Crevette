@@ -1,2 +1,2 @@
 /// @description exploding arrow
-arrow_die();
+//arrow_die();

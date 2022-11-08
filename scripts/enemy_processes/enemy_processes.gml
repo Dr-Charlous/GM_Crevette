@@ -47,6 +47,13 @@ function calc_movement_enemy()
 	my_bow.image_angle = aim_dir;
 	
 	if life == 0 {
+		var chance = irandom_range(1,3);
+		if chance = 1
+			instance_create_layer(x,y,"Instances",o_life);
+		if chance = 2
+			instance_create_layer(x,y,"Instances",o_shield);
+		if chance = 3
+			instance_create_layer(x,y,"Instances",o_speed);
 		instance_destroy(my_bow);
 		instance_destroy();
 	}
