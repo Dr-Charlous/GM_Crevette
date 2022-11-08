@@ -102,6 +102,7 @@ function bonus() {
 		alarm[2] = 300;
 		my_shield = instance_create_layer(x,y,"Instances",o_bouclier)
 		instance_destroy(instance_nearest(x,y,o_shield));
+		with (my_shield) owner_id = other;
 	}
 	if place_meeting(x,y,o_speed) {
 		bonus_speed = true;

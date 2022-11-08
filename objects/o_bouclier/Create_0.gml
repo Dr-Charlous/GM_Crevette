@@ -1,4 +1,4 @@
-
+owner_id = noone;
 
 function shield() {
 	x = o_player.x;
