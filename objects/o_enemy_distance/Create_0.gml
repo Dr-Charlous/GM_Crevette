@@ -3,7 +3,7 @@ walk_spd = walk_spd_orgn;
 facing = 1;
 candash = true;
 ftime = true;
-life = 10;
+life = 3;
 
 //bow
 aim_dir = 0;

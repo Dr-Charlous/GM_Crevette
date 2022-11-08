@@ -4,7 +4,7 @@ facing = 1;
 candash = true;
 ftime = true;
 cplayer = true;
-life_max = 10;
+life_max = 3;
 life = life_max;
 
 //bow
