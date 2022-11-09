@@ -27,14 +27,6 @@ function get_input()
 		hmove = right - left;
 		vmove = down - up;
 	}
-	if keyboard_check_pressed(ord("C")) {
-		view_visible[0] = true;
-		view_visible[1] = false;
-	}
-	if keyboard_check_pressed(ord("V")) {
-		view_visible[0] = false;
-		view_visible[1] = true;	
-	}
 }
 
 function calc_movement()
@@ -166,7 +158,7 @@ function anim()
 		bow_dist = 2;
 		fire_rate = 60;
 		can_fire = true;
-		arrow_speed = 1;
+		arrow_speed = 4;
 		cplayer = false;
 		} else {
 		sp_idle = s_player_idle;
@@ -212,9 +204,13 @@ function check_fire()
 			if cplayer {
 				var _inst = instance_create_layer(x, y, "Arrow", o_arrow);
 				audio_play_sound(snd_proj_distance,2,false);
+				o_camera.fire = true;
+				o_camera.shake_value = 0.5;
 			} else {
 				var _inst = instance_create_layer(x, y, "Arrow", o_arrow1);
 				audio_play_sound(snd_proj_cac,2,false);
+				o_camera.fire = true;
+				o_camera.shake_value = 0.7;
 			}
 			bow_dist = 2;
 			with(_inst)
