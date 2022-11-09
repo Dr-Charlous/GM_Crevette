@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_enemy_distance",
   "spriteId": {
-    "name": "s_enemy",
-    "path": "sprites/s_enemy/s_enemy.yy",
+    "name": "s_enemy_dis",
+    "path": "sprites/s_enemy_dis/s_enemy_dis.yy",
   },
   "solid": false,
   "visible": true,

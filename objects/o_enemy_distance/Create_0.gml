@@ -14,9 +14,9 @@ arrow_speed = 8;
 
 my_bow = instance_create_layer(x, y, "Instances", o_bow);
 
-sp_idle = s_enemy_idle;
-sp_walk = s_enemy_walk;
-sp_hit = s_enemy;
+sp_idle = s_enemy_idle_dis;
+sp_walk = s_enemy_walk_dis;
+sp_hit = s_enemy_dis;
 counter = 0;
 hmove   = 0;
 vmove   = 0;
