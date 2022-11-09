@@ -1,1 +1,1 @@
-plant()
+depth = depth_min;
