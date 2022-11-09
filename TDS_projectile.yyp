@@ -34,6 +34,7 @@
     {"id":{"name":"s_player_idle","path":"sprites/s_player_idle/s_player_idle.yy",},"order":1,},
     {"id":{"name":"s_player_walk","path":"sprites/s_player_walk/s_player_walk.yy",},"order":0,},
     {"id":{"name":"o_bow1","path":"objects/o_bow1/o_bow1.yy",},"order":1,},
+    {"id":{"name":"Algues","path":"sprites/Algues/Algues.yy",},"order":7,},
     {"id":{"name":"snd_proj_cac","path":"sounds/snd_proj_cac/snd_proj_cac.yy",},"order":2,},
     {"id":{"name":"s_player_hit","path":"sprites/s_player_hit/s_player_hit.yy",},"order":2,},
     {"id":{"name":"player_processes","path":"scripts/player_processes/player_processes.yy",},"order":0,},
@@ -97,6 +98,7 @@
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"texturegroup1","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
