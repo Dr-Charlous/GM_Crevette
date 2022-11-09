@@ -46,6 +46,8 @@ function calc_movement_enemy()
 	aim_dir = point_direction(x, y, o_player.x, o_player.y);
 	my_bow.image_angle = aim_dir;
 	
+	randomize();
+	
 	if life == 0 or life < 0 {
 		var chance = irandom_range(1,3);
 		if chance = 1
