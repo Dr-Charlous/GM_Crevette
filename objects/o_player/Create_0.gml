@@ -1,10 +1,16 @@
 //paramètres joueur
 life_max = 3;
 life = life_max;
-walk_spd_orgn = 1.5;
+
+walk_spd_orgn = 5;
 walk_spd = walk_spd_orgn;
-facing = 1;
+
 candash = true;
+dash_spd = 7;
+dash_time = 10;
+dash_cooldown = 120;
+
+facing = 1; //direction sprite
 ftime = true; //activation dash
 cplayer = true; //activation changement de perso
 

@@ -54,27 +54,23 @@ function calc_movement()
 				button_dash = gamepad_button_check(0, gp_shoulderlb);
 				else
 				button_dash = keyboard_check(vk_space);
+				
 		    if button_dash
 		    {
 		        candash = false;
-		        alarm[1] = 5;
-		        walk_spd = walk_spd + 6.5;
-				var _dir = point_direction(0, 0, hmove, vmove);
-				hmove = lengthdir_x(walk_spd, _dir);
-				vmove = lengthdir_y(walk_spd, _dir);
+		        alarm_set(1, dash_time);
+		        walk_spd = walk_spd + dash_spd;
 		    }
-		} else {
-			//correction bug diagonales
-			var _dir = point_direction(0, 0, hmove, vmove);
-			hmove = lengthdir_x(walk_spd, _dir);
-			vmove = lengthdir_y(walk_spd, _dir);
 		}
 		
+		var _dir = point_direction(0, 0, hmove, vmove);
+		hmove = lengthdir_x(walk_spd, _dir);
+		vmove = lengthdir_y(walk_spd, _dir);
 		//mouvement réel avec bonus speed
 		if bonus_speed {
 			x += hmove*2;
 			y += vmove*2;
-		} if malus_para {
+		} else if malus_para {
 			x += 0;
 			y += 0;
 		} else {
