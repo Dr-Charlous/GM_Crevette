@@ -1,2 +1,2 @@
-/// @description 
+//collision :I
 collision_enemy();
