@@ -1,5 +1,5 @@
 //paramètre shake
-shake_power = 5;
+shake_power = 10;
 shake_value = 0;
 fire = false;
 

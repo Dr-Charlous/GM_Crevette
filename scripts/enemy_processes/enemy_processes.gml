@@ -1,5 +1,5 @@
 function calc_movement_enemy()
-{
+{	
 	//mouvement si joueur pas vu
 	if(!collision_circle(x,y,range_view,o_player,false,false)) {
 		counter += 1;
@@ -43,6 +43,11 @@ function calc_movement_enemy()
 		_facing = -1;
 	facing = _facing;
 	
+	if place_meeting(x,y,o_arrow_explode) {
+		walk_spd = -walk_spd*1.5;
+	} else {
+		walk_spd = walk_spd_orgn;
+	}
 	
 	//déplacement réel
 	if(hmove != 0 or vmove != 0)
