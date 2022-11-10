@@ -1,4 +1,4 @@
-/// @description player dash
+//code dash, cooldown
 if ftime {
 	walk_spd = walk_spd_orgn;
 	ftime = false;

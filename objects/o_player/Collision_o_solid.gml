@@ -1,2 +1,2 @@
-/// @description 
+//les coolisions :I
 collision();

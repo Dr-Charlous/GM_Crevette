@@ -1,6 +1,11 @@
 shake_power = 5;
 shake_value = 0;
 
+view_visible[0] = true;
+view_visible[1] = false;
+audio_stop_sound(snd_ambiance);
+audio_play_sound(snd_ambiance,1,true);
+
 cam_x = o_player.x;
 cam_y = o_player.y;
 camera_set_view_pos(view_camera[0], cam_x+camera_get_view_border_x(view_camera[0])/2, cam_y+camera_get_view_border_y(view_camera[0])/2);

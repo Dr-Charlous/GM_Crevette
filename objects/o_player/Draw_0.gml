@@ -1,4 +1,2 @@
-/// @description draw correct facing
+//affachage du joueur avec effet mirroir
 draw_sprite_ext(sprite_index, image_index, x, y, facing, 1, 0, c_white, 1);
-
-draw_text(x,y+10,life);

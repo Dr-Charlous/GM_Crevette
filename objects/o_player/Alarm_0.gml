@@ -1,2 +1,2 @@
-/// @description player can fire
+//cooldown de tire
 can_fire = true;
