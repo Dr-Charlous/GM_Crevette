@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "TDS_projectile",
   "resources": [
+    {"id":{"name":"s_enemy_dead_cac","path":"sprites/s_enemy_dead_cac/s_enemy_dead_cac.yy",},"order":6,},
     {"id":{"name":"snd_proj_distance","path":"sounds/snd_proj_distance/snd_proj_distance.yy",},"order":1,},
     {"id":{"name":"o_bouclier","path":"objects/o_bouclier/o_bouclier.yy",},"order":3,},
     {"id":{"name":"spr_Roche","path":"sprites/spr_Roche/spr_Roche.yy",},"order":1,},
@@ -51,6 +52,7 @@
     {"id":{"name":"s_spike","path":"sprites/s_spike/s_spike.yy",},"order":5,},
     {"id":{"name":"o_speed","path":"objects/o_speed/o_speed.yy",},"order":2,},
     {"id":{"name":"s_player_walk1","path":"sprites/s_player_walk1/s_player_walk1.yy",},"order":5,},
+    {"id":{"name":"s_enemy_dead_dis","path":"sprites/s_enemy_dead_dis/s_enemy_dead_dis.yy",},"order":7,},
     {"id":{"name":"s_enemy_walk_cac","path":"sprites/s_enemy_walk_cac/s_enemy_walk_cac.yy",},"order":2,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":0,},
     {"id":{"name":"s_sheild","path":"sprites/s_sheild/s_sheild.yy",},"order":2,},
