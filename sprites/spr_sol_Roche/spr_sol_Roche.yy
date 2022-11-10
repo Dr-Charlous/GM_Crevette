@@ -21,8 +21,8 @@
   "width": 16,
   "height": 16,
   "textureGroupId": {
-    "name": "texturegroup2",
-    "path": "texturegroups/texturegroup2",
+    "name": "texturegroup1",
+    "path": "texturegroups/texturegroup1",
   },
   "swatchColours": null,
   "gridX": 0,
@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Ground",
-    "path": "folders/Sprites/Decor/Ground.yy",
+    "name": "Decor",
+    "path": "folders/Sprites/Decor.yy",
   },
 }

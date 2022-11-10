@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Wall_RocheType1",
-    "path": "folders/Sprites/Decor/Wall/Wall_RocheType1.yy",
+    "name": "Decor",
+    "path": "folders/Sprites/Decor.yy",
   },
 }
