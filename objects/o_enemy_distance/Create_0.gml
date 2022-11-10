@@ -1,5 +1,3 @@
-
-
 life = 3;
 walk_spd_orgn = 0.5;
 walk_spd = walk_spd_orgn;
