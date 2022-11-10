@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_roche_mur_dessus",
+  "name": "SandAndRocheXRocheWall_copie",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -13,7 +13,7 @@
   "bbox_left": 0,
   "bbox_right": 15,
   "bbox_top": 0,
-  "bbox_bottom": 15,
+  "bbox_bottom": 12,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -28,12 +28,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e022f028-c4f8-4401-82a3-4cfccb4d3818",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eb94527d-9a74-4378-a1af-2d75b453a3ef",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_roche_mur_dessus",
+    "name": "SandAndRocheXRocheWall_copie",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -45,7 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"85c4e8e9-3eee-4994-a323-dc1bda6696e5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e022f028-c4f8-4401-82a3-4cfccb4d3818","path":"sprites/spr_roche_mur_dessus/spr_roche_mur_dessus.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8c323a58-ad7a-4ea4-be14-83296401d3a9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eb94527d-9a74-4378-a1af-2d75b453a3ef","path":"sprites/SandAndRocheXRocheWall_copie/SandAndRocheXRocheWall_copie.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -64,11 +64,11 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"52d2e4e4-4347-4d19-9a18-357dac723a6b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"aa5cf7c2-6df6-4b1e-a53b-0ebd32d4fcba","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Wall_RocheType1",
-    "path": "folders/Sprites/Decor/Wall/Wall_RocheType1.yy",
+    "name": "Wall_RocheType2",
+    "path": "folders/Sprites/Decor/Wall/Wall_RocheType2.yy",
   },
 }

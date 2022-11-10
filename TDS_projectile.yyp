@@ -6,32 +6,42 @@
     {"id":{"name":"s_enemy_dead_cac","path":"sprites/s_enemy_dead_cac/s_enemy_dead_cac.yy",},"order":6,},
     {"id":{"name":"snd_proj_distance","path":"sounds/snd_proj_distance/snd_proj_distance.yy",},"order":1,},
     {"id":{"name":"o_bouclier","path":"objects/o_bouclier/o_bouclier.yy",},"order":3,},
-    {"id":{"name":"spr_sol_Roche","path":"sprites/spr_sol_Roche/spr_sol_Roche.yy",},"order":1,},
+    {"id":{"name":"spr_sol_Roche","path":"sprites/spr_sol_Roche/spr_sol_Roche.yy",},"order":0,},
     {"id":{"name":"s_enemy_cac","path":"sprites/s_enemy_cac/s_enemy_cac.yy",},"order":0,},
     {"id":{"name":"enemy_processes","path":"scripts/enemy_processes/enemy_processes.yy",},"order":1,},
     {"id":{"name":"o_plant","path":"objects/o_plant/o_plant.yy",},"order":1,},
+    {"id":{"name":"SandXRocheSol_Bot","path":"sprites/SandXRocheSol_Bot/SandXRocheSol_Bot.yy",},"order":1,},
     {"id":{"name":"s_life_player","path":"sprites/s_life_player/s_life_player.yy",},"order":2,},
     {"id":{"name":"s_life","path":"sprites/s_life/s_life.yy",},"order":0,},
     {"id":{"name":"o_spike","path":"objects/o_spike/o_spike.yy",},"order":4,},
     {"id":{"name":"s_speed","path":"sprites/s_speed/s_speed.yy",},"order":1,},
+    {"id":{"name":"SandXRocheSol_LeftRight","path":"sprites/SandXRocheSol_LeftRight/SandXRocheSol_LeftRight.yy",},"order":3,},
     {"id":{"name":"o_life","path":"objects/o_life/o_life.yy",},"order":0,},
-    {"id":{"name":"spr_roche_mur_dessus_2","path":"sprites/spr_roche_mur_dessus_2/spr_roche_mur_dessus_2.yy",},"order":5,},
+    {"id":{"name":"spr_roche_mur_dessus_2","path":"sprites/spr_roche_mur_dessus_2/spr_roche_mur_dessus_2.yy",},"order":2,},
     {"id":{"name":"o_enemy_cac","path":"objects/o_enemy_cac/o_enemy_cac.yy",},"order":0,},
-    {"id":{"name":"spr_roche_mur","path":"sprites/spr_roche_mur/spr_roche_mur.yy",},"order":3,},
+    {"id":{"name":"spr_roche_mur","path":"sprites/spr_roche_mur/spr_roche_mur.yy",},"order":0,},
     {"id":{"name":"s_enemy_idle_cac","path":"sprites/s_enemy_idle_cac/s_enemy_idle_cac.yy",},"order":1,},
     {"id":{"name":"o_arrow1","path":"objects/o_arrow1/o_arrow1.yy",},"order":2,},
     {"id":{"name":"o_enemy_distance","path":"objects/o_enemy_distance/o_enemy_distance.yy",},"order":1,},
+    {"id":{"name":"RocheWall","path":"sprites/RocheWall/RocheWall.yy",},"order":2,},
     {"id":{"name":"s_para","path":"sprites/s_para/s_para.yy",},"order":6,},
     {"id":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},"order":0,},
     {"id":{"name":"s_arrow","path":"sprites/s_arrow/s_arrow.yy",},"order":1,},
-    {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":2,},
     {"id":{"name":"s_bouclier","path":"sprites/s_bouclier/s_bouclier.yy",},"order":3,},
     {"id":{"name":"s_player_hit1","path":"sprites/s_player_hit1/s_player_hit1.yy",},"order":3,},
     {"id":{"name":"s_enemy_walk_dis","path":"sprites/s_enemy_walk_dis/s_enemy_walk_dis.yy",},"order":5,},
     {"id":{"name":"snd_ambiance","path":"sounds/snd_ambiance/snd_ambiance.yy",},"order":3,},
     {"id":{"name":"spr_pierre_4","path":"sprites/spr_pierre_4/spr_pierre_4.yy",},"order":5,},
     {"id":{"name":"o_shield","path":"objects/o_shield/o_shield.yy",},"order":1,},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_corail_2","path":"sprites/spr_corail_2/spr_corail_2.yy",},"order":9,},
+=======
+<<<<<<< HEAD
+    {"id":{"name":"SandXRocheSol_Corner","path":"sprites/SandXRocheSol_Corner/SandXRocheSol_Corner.yy",},"order":2,},
+=======
+    {"id":{"name":"spr_corail_2","path":"sprites/spr_corail_2/spr_corail_2.yy",},"order":9,},
+>>>>>>> 7536fb28ed862dcc98ef88652072b9bdd1281b6d
+>>>>>>> Stashed changes
     {"id":{"name":"o_arrow_explode","path":"objects/o_arrow_explode/o_arrow_explode.yy",},"order":1,},
     {"id":{"name":"s_player_idle1","path":"sprites/s_player_idle1/s_player_idle1.yy",},"order":4,},
     {"id":{"name":"o_hole","path":"objects/o_hole/o_hole.yy",},"order":5,},
@@ -48,14 +58,16 @@
     {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"order":2,},
     {"id":{"name":"spr_pierre_2","path":"sprites/spr_pierre_2/spr_pierre_2.yy",},"order":3,},
     {"id":{"name":"s_enemy_idle_dis","path":"sprites/s_enemy_idle_dis/s_enemy_idle_dis.yy",},"order":4,},
-    {"id":{"name":"spr_roche_mur_dessus","path":"sprites/spr_roche_mur_dessus/spr_roche_mur_dessus.yy",},"order":4,},
+    {"id":{"name":"spr_roche_mur_dessus","path":"sprites/spr_roche_mur_dessus/spr_roche_mur_dessus.yy",},"order":1,},
     {"id":{"name":"player_processes","path":"scripts/player_processes/player_processes.yy",},"order":0,},
+    {"id":{"name":"SandAndRocheXRocheWall_copie","path":"sprites/SandAndRocheXRocheWall_copie/SandAndRocheXRocheWall_copie.yy",},"order":1,},
     {"id":{"name":"s_sfx_piou","path":"sprites/s_sfx_piou/s_sfx_piou.yy",},"order":0,},
     {"id":{"name":"spr_moule_1","path":"sprites/spr_moule_1/spr_moule_1.yy",},"order":1,},
     {"id":{"name":"s_cursor","path":"sprites/s_cursor/s_cursor.yy",},"order":1,},
     {"id":{"name":"s_bow_enemyCAC","path":"sprites/s_bow_enemyCAC/s_bow_enemyCAC.yy",},"order":7,},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":2,},
     {"id":{"name":"o_bow","path":"objects/o_bow/o_bow.yy",},"order":0,},
+    {"id":{"name":"Sand","path":"sprites/Sand/Sand.yy",},"order":4,},
     {"id":{"name":"Proj","path":"sprites/Proj/Proj.yy",},"order":0,},
     {"id":{"name":"s_bow1","path":"sprites/s_bow1/s_bow1.yy",},"order":5,},
     {"id":{"name":"s_spike","path":"sprites/s_spike/s_spike.yy",},"order":5,},
@@ -76,7 +88,15 @@
     {"id":{"name":"s_arrow1","path":"sprites/s_arrow1/s_arrow1.yy",},"order":3,},
     {"id":{"name":"spr_pierre_1","path":"sprites/spr_pierre_1/spr_pierre_1.yy",},"order":2,},
     {"id":{"name":"snd_ambiance1","path":"sounds/snd_ambiance1/snd_ambiance1.yy",},"order":4,},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_pierre_3","path":"sprites/spr_pierre_3/spr_pierre_3.yy",},"order":4,},
+=======
+<<<<<<< HEAD
+    {"id":{"name":"RocheWall_Top","path":"sprites/RocheWall_Top/RocheWall_Top.yy",},"order":0,},
+=======
+    {"id":{"name":"spr_pierre_3","path":"sprites/spr_pierre_3/spr_pierre_3.yy",},"order":4,},
+>>>>>>> 7536fb28ed862dcc98ef88652072b9bdd1281b6d
+>>>>>>> Stashed changes
     {"id":{"name":"s_enemy_hit_cac","path":"sprites/s_enemy_hit_cac/s_enemy_hit_cac.yy",},"order":8,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -113,14 +133,25 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bonus_Malus","folderPath":"folders/Sprites/Bonus_Malus.yy","order":3,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Decor","folderPath":"folders/Sprites/Decor.yy","order":7,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Sprites/Enemy.yy","order":4,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fx","folderPath":"folders/Sprites/Fx.yy","order":8,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy","order":2,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Projectile","folderPath":"folders/Sprites/Projectile.yy","order":5,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bonus_Malus","folderPath":"folders/Sprites/Bonus_Malus.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Decor","folderPath":"folders/Sprites/Decor.yy","order":4,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Sprites/Enemy.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fx","folderPath":"folders/Sprites/Fx.yy","order":5,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy","order":0,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Projectile","folderPath":"folders/Sprites/Projectile.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
+<<<<<<< Updated upstream
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"decor_seul_test","folderPath":"folders/Sprites/Decor/decor_seul_test.yy","order":6,},
+=======
+<<<<<<< HEAD
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Ground","folderPath":"folders/Sprites/Decor/Ground.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Wall","folderPath":"folders/Sprites/Decor/Wall.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Wall_RocheType1","folderPath":"folders/Sprites/Decor/Wall/Wall_RocheType1.yy","order":3,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Wall_RocheType2","folderPath":"folders/Sprites/Decor/Wall/Wall_RocheType2.yy","order":4,},
+=======
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"decor_seul_test","folderPath":"folders/Sprites/Decor/decor_seul_test.yy","order":6,},
+>>>>>>> 7536fb28ed862dcc98ef88652072b9bdd1281b6d
+>>>>>>> Stashed changes
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
@@ -128,6 +159,7 @@
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"texturegroup1","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"texturegroup2","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
