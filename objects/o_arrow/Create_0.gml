@@ -1,11 +1,10 @@
-/// @description Init vars
+//paramètre arme et projectile
 damage = 5;
 range = 160;
 owner_id = noone;
-knockback_time = 5;
 
 function arrow_die()
-	///@desc What happen when the arrow id destroyed
+	//explosion de projectile
 {
 	speed = 0;
 	instance_change(o_arrow_explode, false);

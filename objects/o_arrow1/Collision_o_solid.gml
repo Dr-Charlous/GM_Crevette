@@ -1,2 +1,2 @@
-/// @description exploding arrow
+//collision :I
 //arrow_die();
