@@ -79,6 +79,16 @@ function calc_movement()
 			y += vmove;
 		}
 	}
+	if place_meeting(x,y,o_arrow_explode) or place_meeting(x,y,o_spike) {
+		var _dir = point_direction(0, 0, o_arrow_explode.x, o_arrow_explode.y);
+		hmove = lengthdir_x(walk_spd, _dir);
+		vmove = lengthdir_y(walk_spd, _dir);
+		x -= hmove;
+		y -= vmove;
+	} else {
+		hmove = hmove;
+		vmove = vmove;
+	}
 	
 	//calcul direction de cible en fonction de manette co ou non
 	if gamepad_is_connected(0) {

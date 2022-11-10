@@ -43,7 +43,7 @@ function calc_movement_enemy()
 		_facing = -1;
 	facing = _facing;
 	
-	if place_meeting(x,y,o_arrow_explode) {
+	if place_meeting(x,y,o_arrow_explode) or place_meeting(x,y,o_spike) {
 		hmove = -hmove;
 		vmove = -vmove;
 	} else {
