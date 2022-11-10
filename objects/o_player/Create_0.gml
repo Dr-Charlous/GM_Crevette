@@ -2,7 +2,7 @@
 life_max = 3;
 life = life_max;
 
-walk_spd_orgn = 5;
+walk_spd_orgn = 3;
 walk_spd = walk_spd_orgn;
 
 candash = true;

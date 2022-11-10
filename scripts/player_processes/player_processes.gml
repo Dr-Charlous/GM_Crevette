@@ -66,6 +66,7 @@ function calc_movement()
 		var _dir = point_direction(0, 0, hmove, vmove);
 		hmove = lengthdir_x(walk_spd, _dir);
 		vmove = lengthdir_y(walk_spd, _dir);
+		
 		//mouvement réel avec bonus speed
 		if bonus_speed {
 			x += hmove*2;

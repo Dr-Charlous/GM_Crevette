@@ -1,4 +1,4 @@
-life = 4;
+life = 4; //4 normalement
 walk_spd_orgn = 1;
 walk_spd = walk_spd_orgn;
 range_view = 200;
