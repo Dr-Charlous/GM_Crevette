@@ -5,6 +5,7 @@ range_view = 180;
 range_attack = 120;
 facing = 1;
 enemy_type = true;
+hit = false;
 
 //bow
 aim_dir = 0;

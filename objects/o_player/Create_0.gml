@@ -13,6 +13,7 @@ dash_cooldown = 120;
 facing = 1; //direction sprite
 ftime = true; //activation dash
 cplayer = true; //activation changement de perso
+hit = false;
 
 
 //bow

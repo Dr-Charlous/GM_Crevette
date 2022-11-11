@@ -1,0 +1,2 @@
+if hit
+	hit = false;
