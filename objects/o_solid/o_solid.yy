@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_solid",
   "spriteId": {
-    "name": "spr_sol_Roche",
-    "path": "sprites/spr_sol_Roche/spr_sol_Roche.yy",
+    "name": "RocheWall",
+    "path": "sprites/RocheWall/RocheWall.yy",
   },
   "solid": false,
   "visible": true,
