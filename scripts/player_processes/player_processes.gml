@@ -104,16 +104,20 @@ function bonus()
 	}
 	//set bonus de bouclier
 	if place_meeting(x,y,o_shield) {
-		alarm[2] = 300;
-		my_shield = instance_create_layer(x,y,"Instances",o_bouclier)
-		instance_destroy(instance_nearest(x,y,o_shield));
-		with (my_shield) owner_id = other;
+		if !instance_exists(my_shield) {
+			alarm[2] = 300;
+			my_shield = instance_create_layer(x,y,"Instances",o_bouclier)
+			instance_destroy(instance_nearest(x,y,o_shield));
+			with (my_shield) owner_id = other;
+		}
 	}
 	//bonus de speed
 	if place_meeting(x,y,o_speed) {
-		bonus_speed = true;
-		alarm[2] = 240;
-		instance_destroy(instance_nearest(x,y,o_speed));
+		if bonus_speed = false {
+			bonus_speed = true;
+			alarm[2] = 240;
+			instance_destroy(instance_nearest(x,y,o_speed));
+		}
 	}
 	//malus tétraplégie
 	if place_meeting(x,y,o_freeze) {
