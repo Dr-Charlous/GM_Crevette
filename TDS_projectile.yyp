@@ -66,6 +66,7 @@
     {"id":{"name":"spr_algue_2","path":"sprites/spr_algue_2/spr_algue_2.yy",},"order":7,},
     {"id":{"name":"s_enemy_walk_cac","path":"sprites/s_enemy_walk_cac/s_enemy_walk_cac.yy",},"order":2,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":0,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":2,},
     {"id":{"name":"s_sheild","path":"sprites/s_sheild/s_sheild.yy",},"order":2,},
     {"id":{"name":"spr_corail_1","path":"sprites/spr_corail_1/spr_corail_1.yy",},"order":8,},
     {"id":{"name":"s_bow_enemyDis","path":"sprites/s_bow_enemyDis/s_bow_enemyDis.yy",},"order":6,},
@@ -79,7 +80,6 @@
     {"id":{"name":"snd_ambiance1","path":"sounds/snd_ambiance1/snd_ambiance1.yy",},"order":4,},
     {"id":{"name":"spr_pierre_3","path":"sprites/spr_pierre_3/spr_pierre_3.yy",},"order":4,},
     {"id":{"name":"s_enemy_hit_cac","path":"sprites/s_enemy_hit_cac/s_enemy_hit_cac.yy",},"order":8,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
