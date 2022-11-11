@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"s_enemy_dead_cac","path":"sprites/s_enemy_dead_cac/s_enemy_dead_cac.yy",},"order":6,},
     {"id":{"name":"snd_proj_distance","path":"sounds/snd_proj_distance/snd_proj_distance.yy",},"order":1,},
+    {"id":{"name":"o_dev","path":"objects/o_dev/o_dev.yy",},"order":3,},
     {"id":{"name":"o_bouclier","path":"objects/o_bouclier/o_bouclier.yy",},"order":3,},
     {"id":{"name":"spr_sol_Roche","path":"sprites/spr_sol_Roche/spr_sol_Roche.yy",},"order":1,},
     {"id":{"name":"s_enemy_cac","path":"sprites/s_enemy_cac/s_enemy_cac.yy",},"order":0,},

@@ -7,5 +7,8 @@ function arrow_die()
 	//explosion de projectile
 {
 	speed = 0;
-	instance_change(o_arrow_explode, false);
+	var my_explo = instance_change(o_arrow_explode, false);
+	with(my_explo) {
+		direction = other.direction;
+	}
 }

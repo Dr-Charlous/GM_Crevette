@@ -43,14 +43,6 @@ function calc_movement_enemy()
 		_facing = -1;
 	facing = _facing;
 	
-	if place_meeting(x,y,o_arrow_explode) or place_meeting(x,y,o_spike) {
-		hmove = -hmove;
-		vmove = -vmove;
-	} else {
-		hmove = hmove;
-		vmove = vmove;
-	}
-	
 	//déplacement réel
 	if(hmove != 0 or vmove != 0)
 	{
