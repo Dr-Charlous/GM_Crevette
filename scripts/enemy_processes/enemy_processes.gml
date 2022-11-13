@@ -67,6 +67,11 @@ function calc_movement_enemy()
 		if chance = 3
 			instance_create_layer(x,y,"Instances",o_speed);
 		instance_destroy(my_bow);
+		var my_corpse = instance_create_layer(x,y,"Instances",o_dead);
+		with(my_corpse) {
+			sp_dead = other.sp_hit;
+			alarm[0] = 120;
+		}
 		instance_destroy();
 	}
 }
