@@ -34,3 +34,5 @@ window_set_cursor(cr_none);
 sp_idle = s_player_idle; 
 sp_walk = s_player_walk; 
 sp_hit = s_player_hit;
+s_bo = s_bow;
+s_bo_shot = s_bow_shot;

@@ -10,6 +10,7 @@
     {"id":{"name":"o_dev","path":"objects/o_dev/o_dev.yy",},"order":3,},
     {"id":{"name":"o_bouclier","path":"objects/o_bouclier/o_bouclier.yy",},"order":3,},
     {"id":{"name":"spr_sol_Roche","path":"sprites/spr_sol_Roche/spr_sol_Roche.yy",},"order":14,},
+    {"id":{"name":"s_bow_shot1","path":"sprites/s_bow_shot1/s_bow_shot1.yy",},"order":9,},
     {"id":{"name":"s_enemy_cac","path":"sprites/s_enemy_cac/s_enemy_cac.yy",},"order":0,},
     {"id":{"name":"enemy_processes","path":"scripts/enemy_processes/enemy_processes.yy",},"order":1,},
     {"id":{"name":"o_plant","path":"objects/o_plant/o_plant.yy",},"order":1,},
@@ -85,6 +86,7 @@
     {"id":{"name":"spr_etoile_de_merde","path":"sprites/spr_etoile_de_merde/spr_etoile_de_merde.yy",},"order":0,},
     {"id":{"name":"s_enemy_dis","path":"sprites/s_enemy_dis/s_enemy_dis.yy",},"order":3,},
     {"id":{"name":"s_arrow1","path":"sprites/s_arrow1/s_arrow1.yy",},"order":3,},
+    {"id":{"name":"s_bow_shot","path":"sprites/s_bow_shot/s_bow_shot.yy",},"order":8,},
     {"id":{"name":"Room_test_dev","path":"rooms/Room_test_dev/Room_test_dev.yy",},"order":1,},
     {"id":{"name":"spr_pierre_1","path":"sprites/spr_pierre_1/spr_pierre_1.yy",},"order":2,},
     {"id":{"name":"snd_ambiance1","path":"sounds/snd_ambiance1/snd_ambiance1.yy",},"order":4,},
@@ -111,8 +113,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room_test_dev","path":"rooms/Room_test_dev/Room_test_dev.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room_test_dev","path":"rooms/Room_test_dev/Room_test_dev.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy","order":14,},
