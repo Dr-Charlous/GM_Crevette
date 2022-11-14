@@ -193,7 +193,7 @@ function anim()
 	
 	//marche ou idle
 	if hit {
-		//sprite_index = sp_hit;
+		sprite_index = sp_hit;
 	} else {
 		if(hmove != 0 or vmove != 0)
 			sprite_index = sp_walk;
