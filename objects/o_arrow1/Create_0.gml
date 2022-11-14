@@ -2,7 +2,7 @@
 damage = 10;
 range = 30;
 owner_id = noone;
-recul = 10;
+recul = 3;
 
 function arrow_die()
 	//explosion de projectile
