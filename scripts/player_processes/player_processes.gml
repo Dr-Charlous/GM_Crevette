@@ -218,9 +218,7 @@ function check_fire()
 		{
 			can_fire = false;
 			alarm[0] = fire_rate;
-			with(my_bow) {
-				sprite_index = other.s_bo_shot;
-			}
+			my_bow.sprite_index = s_bo_shot;
 			
 			//direction de tire
 			if gamepad_is_connected(0) {
