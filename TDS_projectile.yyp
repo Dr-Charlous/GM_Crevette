@@ -80,6 +80,7 @@
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":2,},
     {"id":{"name":"s_sheild","path":"sprites/s_sheild/s_sheild.yy",},"order":2,},
+    {"id":{"name":"s_life_shield_player","path":"sprites/s_life_shield_player/s_life_shield_player.yy",},"order":3,},
     {"id":{"name":"spr_corail_1","path":"sprites/spr_corail_1/spr_corail_1.yy",},"order":8,},
     {"id":{"name":"s_bow_enemyDis","path":"sprites/s_bow_enemyDis/s_bow_enemyDis.yy",},"order":6,},
     {"id":{"name":"o_freeze","path":"objects/o_freeze/o_freeze.yy",},"order":6,},
