@@ -52,7 +52,8 @@ function calc_movement_enemy()
 	
 	//calcul direction de vue
 	aim_dir = point_direction(x, y, o_player.x, o_player.y);
-	my_bow.image_angle = aim_dir;
+	my_bow1.image_angle = aim_dir;
+	my_bow2.image_angle = aim_dir;
 	
 	
 	//drop random et mort
@@ -66,7 +67,8 @@ function calc_movement_enemy()
 			instance_create_layer(x,y,"Instances",o_shield);
 		if chance = 3
 			instance_create_layer(x,y,"Instances",o_speed);
-		instance_destroy(my_bow);
+		instance_destroy(my_bow1);
+		instance_destroy(my_bow2);
 		var my_corpse = instance_create_layer(x,y,"Instances",o_dead);
 		with(my_corpse) {
 			sp_dead = other.sp_hit;

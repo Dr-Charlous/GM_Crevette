@@ -31,6 +31,7 @@
     {"id":{"name":"SandXRocheSol_Bot","path":"sprites/SandXRocheSol_Bot/SandXRocheSol_Bot.yy",},"order":20,},
     {"id":{"name":"s_arrow","path":"sprites/s_arrow/s_arrow.yy",},"order":1,},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":15,},
+    {"id":{"name":"o_wpn2","path":"objects/o_wpn2/o_wpn2.yy",},"order":3,},
     {"id":{"name":"SandXRocheSol_Corner","path":"sprites/SandXRocheSol_Corner/SandXRocheSol_Corner.yy",},"order":21,},
     {"id":{"name":"s_bouclier","path":"sprites/s_bouclier/s_bouclier.yy",},"order":3,},
     {"id":{"name":"s_player_hit1","path":"sprites/s_player_hit1/s_player_hit1.yy",},"order":3,},
@@ -42,6 +43,7 @@
     {"id":{"name":"o_arrow_explode","path":"objects/o_arrow_explode/o_arrow_explode.yy",},"order":1,},
     {"id":{"name":"s_player_idle1","path":"sprites/s_player_idle1/s_player_idle1.yy",},"order":4,},
     {"id":{"name":"o_hole","path":"objects/o_hole/o_hole.yy",},"order":5,},
+    {"id":{"name":"o_wpn1","path":"objects/o_wpn1/o_wpn1.yy",},"order":4,},
     {"id":{"name":"s_bow","path":"sprites/s_bow/s_bow.yy",},"order":4,},
     {"id":{"name":"s_arrow_explode","path":"sprites/s_arrow_explode/s_arrow_explode.yy",},"order":2,},
     {"id":{"name":"s_hole","path":"sprites/s_hole/s_hole.yy",},"order":4,},
@@ -109,8 +111,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_test_dev","path":"rooms/Room_test_dev/Room_test_dev.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy","order":14,},
