@@ -10,8 +10,8 @@
   "visible": true,
   "managed": true,
   "spriteMaskId": {
-    "name": "s_player_idle",
-    "path": "sprites/s_player_idle/s_player_idle.yy",
+    "name": "s_player_idle_dis",
+    "path": "sprites/s_player_idle_dis/s_player_idle_dis.yy",
   },
   "persistent": false,
   "parentObjectId": null,

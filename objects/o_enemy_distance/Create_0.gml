@@ -17,7 +17,8 @@ arrow_speed = 8;
 //les sprites de l'ennemis en question
 sp_idle = s_enemy_idle_dis;
 sp_walk = s_enemy_walk_dis;
-sp_hit = s_enemy_dis;
+sp_hit = s_enemy_hit_dis;
+sp_dead = s_enemy_dead_dis;
 
 //paramètres d'action du bot
 counter = 0;
@@ -26,5 +27,5 @@ vmove   = 0;
 action = 10;
 can_fire_enemy = 0;
 
-my_bow1 = instance_create_depth(x, y, -10, o_wpn2);
-my_bow2 = instance_create_depth(x, y, -10, o_wpn2);
+my_bow1 = instance_create_depth(x, y, -10, o_wpn_enemy_dis);
+my_bow2 = instance_create_depth(x, y, -10, o_wpn_enemy_dis);

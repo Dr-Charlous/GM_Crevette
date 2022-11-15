@@ -34,7 +34,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bonus_Malus",
-    "path": "folders/Objects/Bonus_Malus.yy",
+    "name": "Malus",
+    "path": "folders/Objects/Bonus_Malus/Malus.yy",
   },
 }
