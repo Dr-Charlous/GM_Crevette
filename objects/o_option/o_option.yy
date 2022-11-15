@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_option",
   "spriteId": {
-    "name": "s_button",
-    "path": "sprites/s_button/s_button.yy",
+    "name": "s_options",
+    "path": "sprites/s_options/s_options.yy",
   },
   "solid": false,
   "visible": true,

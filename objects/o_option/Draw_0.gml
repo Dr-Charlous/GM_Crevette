@@ -1,5 +1,4 @@
 draw_self();
-draw_text(x,y,"Option");
 image_speed = 0;
 
 if place_meeting(x,y,o_mouse) {

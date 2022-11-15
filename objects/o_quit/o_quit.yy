@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_quit",
   "spriteId": {
-    "name": "s_button",
-    "path": "sprites/s_button/s_button.yy",
+    "name": "s_exit",
+    "path": "sprites/s_exit/s_exit.yy",
   },
   "solid": false,
   "visible": true,

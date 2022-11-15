@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_start",
   "spriteId": {
-    "name": "s_button",
-    "path": "sprites/s_button/s_button.yy",
+    "name": "s_play",
+    "path": "sprites/s_play/s_play.yy",
   },
   "solid": false,
   "visible": true,
