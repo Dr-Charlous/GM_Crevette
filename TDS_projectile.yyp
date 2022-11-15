@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"s_enemy_dead_cac","path":"sprites/s_enemy_dead_cac/s_enemy_dead_cac.yy",},"order":1,},
     {"id":{"name":"RocheWall","path":"sprites/RocheWall/RocheWall.yy",},"order":16,},
+    {"id":{"name":"o_pause","path":"objects/o_pause/o_pause.yy",},"order":3,},
     {"id":{"name":"Sand","path":"sprites/Sand/Sand.yy",},"order":18,},
     {"id":{"name":"snd_proj_distance","path":"sounds/snd_proj_distance/snd_proj_distance.yy",},"order":1,},
     {"id":{"name":"o_dev","path":"objects/o_dev/o_dev.yy",},"order":1,},
@@ -25,6 +26,7 @@
     {"id":{"name":"spr_roche_mur","path":"sprites/spr_roche_mur/spr_roche_mur.yy",},"order":11,},
     {"id":{"name":"Tile_Template","path":"sprites/Tile_Template/Tile_Template.yy",},"order":27,},
     {"id":{"name":"s_enemy_idle_cac","path":"sprites/s_enemy_idle_cac/s_enemy_idle_cac.yy",},"order":3,},
+    {"id":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},"order":2,},
     {"id":{"name":"o_shot_cac","path":"objects/o_shot_cac/o_shot_cac.yy",},"order":2,},
     {"id":{"name":"o_enemy_distance","path":"objects/o_enemy_distance/o_enemy_distance.yy",},"order":1,},
     {"id":{"name":"s_para","path":"sprites/s_para/s_para.yy",},"order":1,},
