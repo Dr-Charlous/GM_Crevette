@@ -8,5 +8,6 @@ function menu_pause() {
 	} else {
 		audio_resume_all();
 		instance_activate_layer("Instances");
+		instance_activate_layer("Shot");
 	}
 }

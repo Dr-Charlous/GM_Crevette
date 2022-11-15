@@ -141,10 +141,10 @@ function check_fire_enemy()
 			
 			//type d'attaque en fonction de l'ennemi
 			if enemy_type {
-				var _inst = instance_create_layer(x, y, "Arrow", o_shot_dis);
+				var _inst = instance_create_layer(x, y, "Shot", o_shot_dis);
 				audio_play_sound(snd_proj_distance,2,false);
 			} else {
-				var _inst = instance_create_layer(x, y, "Arrow", o_shot_cac);
+				var _inst = instance_create_layer(x, y, "Shot", o_shot_cac);
 				audio_play_sound(snd_proj_cac,2,false);
 			}
 			

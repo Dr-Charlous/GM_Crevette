@@ -234,12 +234,12 @@ function check_fire()
 			
 			//attaques en fonction du perso
 			if cplayer {
-				var _inst = instance_create_layer(x, y, "Arrow", o_shot_dis);
+				var _inst = instance_create_layer(x, y, "Shot", o_shot_dis);
 				audio_play_sound(snd_proj_distance,2,false);
 				o_camera.fire = true;
 				o_camera.shake_value = 0.5;
 			} else {
-				var _inst = instance_create_layer(x, y, "Arrow", o_shot_cac);
+				var _inst = instance_create_layer(x, y, "Shot", o_shot_cac);
 				audio_play_sound(snd_proj_cac,2,false);
 				o_camera.fire = true;
 				o_camera.shake_value = 0.7;
