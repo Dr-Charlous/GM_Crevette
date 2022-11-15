@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_shield",
   "spriteId": {
-    "name": "s_sheild",
-    "path": "sprites/s_sheild/s_sheild.yy",
+    "name": "s_bonus_shield",
+    "path": "sprites/s_bonus_shield/s_bonus_shield.yy",
   },
   "solid": false,
   "visible": true,

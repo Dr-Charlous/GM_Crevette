@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_speed",
   "spriteId": {
-    "name": "s_speed",
-    "path": "sprites/s_speed/s_speed.yy",
+    "name": "s_bonus_speed",
+    "path": "sprites/s_bonus_speed/s_bonus_speed.yy",
   },
   "solid": false,
   "visible": true,

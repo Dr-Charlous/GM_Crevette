@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_solid",
   "spriteId": {
-    "name": "Sprite69",
-    "path": "sprites/Sprite69/Sprite69.yy",
+    "name": "s_solid",
+    "path": "sprites/s_solid/s_solid.yy",
   },
   "solid": false,
   "visible": true,

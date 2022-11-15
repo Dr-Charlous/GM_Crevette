@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_life",
   "spriteId": {
-    "name": "s_life",
-    "path": "sprites/s_life/s_life.yy",
+    "name": "s_bonus_vie",
+    "path": "sprites/s_bonus_vie/s_bonus_vie.yy",
   },
   "solid": false,
   "visible": true,
