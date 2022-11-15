@@ -1,6 +1,6 @@
 //paramètre arme et projectile
 damage = 10;
-range = 30;
+range = 64;
 owner_id = noone;
 recul = 3;
 

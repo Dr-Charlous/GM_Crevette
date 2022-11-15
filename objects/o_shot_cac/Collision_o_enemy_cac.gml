@@ -3,7 +3,7 @@ if !place_meeting(x,y,owner_id){
 		arrow_die();
 		audio_play_sound(snd_hit,2,false);
 		with(other) {
-			life -= 1;
+			life -= 0;
 			hit = true;
 			alarm[0] = 20;
 			var _dir = other.direction;
