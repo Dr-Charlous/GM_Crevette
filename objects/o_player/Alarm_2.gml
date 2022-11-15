@@ -4,5 +4,5 @@ if malus_para
 	malus_para = false;
 	
 	
-if instance_exists(o_bouclier)
-	instance_destroy(o_bouclier);
+if instance_exists(my_shield)
+	instance_destroy(my_shield);

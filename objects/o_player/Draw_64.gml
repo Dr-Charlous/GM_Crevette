@@ -3,7 +3,10 @@ if o_dev.UI {
 
 	//boucle pour faire apparaitre les pts de vie
 	for(i=0;i<life;i++) {
-		draw_sprite(s_life_player,0,15+pos_life,15);
+		if instance_exists(my_shield)
+			draw_sprite(s_life_shield_player,0,15+pos_life,15);
+		else
+			draw_sprite(s_life_player,0,15+pos_life,15);
 		pos_life += 150;
 	}
 

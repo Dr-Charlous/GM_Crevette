@@ -69,8 +69,8 @@ function calc_movement()
 		
 		//mouvement réel avec bonus speed
 		if bonus_speed {
-			x += hmove*2;
-			y += vmove*2;
+			x += hmove*1.5;
+			y += vmove*1.5;
 		} else if malus_para {
 			x += 0;
 			y += 0;
@@ -94,19 +94,17 @@ function calc_movement()
 function bonus() 
 {
 	//bonus de vie
-	if place_meeting(x,y,o_life) {
-		if life < life_max {
-			life += 2;
-			if life > life_max
-				life = life_max;
-		}
+	if place_meeting(x,y,o_life) and life<life_max {
+		life += 2;
+		if life > life_max
+			life = life_max;
 		instance_destroy(instance_nearest(x,y,o_life));
 	}
 	//set bonus de bouclier
 	if place_meeting(x,y,o_shield) {
 		if !instance_exists(my_shield) {
 			alarm[2] = 300;
-			my_shield = instance_create_layer(x,y,"Instances",o_bouclier)
+			my_shield = instance_create_layer(x,y,"Instances",o_shield_player)
 			instance_destroy(instance_nearest(x,y,o_shield));
 			with (my_shield) owner_id = other;
 		}
@@ -164,11 +162,13 @@ function anim()
 	//changement de perso
 	if(button_change) {
 		if cplayer {
-		sp_idle = s_player_idle1; 
-		sp_walk = s_player_walk1; 
-		sp_hit = s_player_hit1;
+		sp_idle = s_player_idle_cac; 
+		sp_walk = s_player_walk_cac; 
+		sp_hit = s_player_hit_cac;
+		s_bo = s_wpn_cac;
+		s_bo_shot = s_wpn_cac_shot;
 		instance_destroy(my_bow);
-		my_bow = instance_create_layer(x, y, "Instances", o_bow1);
+		my_bow = instance_create_layer(x, y, "Instances", o_wpn_cac);
 		aim_dir = 0;
 		bow_dist = 2;
 		fire_rate = 60;
@@ -176,11 +176,13 @@ function anim()
 		arrow_speed = 4;
 		cplayer = false;
 		} else {
-		sp_idle = s_player_idle;
-		sp_walk = s_player_walk;
-		sp_hit = s_player_hit;
+		sp_idle = s_player_idle_dis; 
+		sp_walk = s_player_walk_dis; 
+		sp_hit = s_player_hit_dis;
+		s_bo = s_wpn_dis;
+		s_bo_shot = s_wpn_dis_shot;
 		instance_destroy(my_bow);
-		my_bow = instance_create_layer(x, y, "Instances", o_bow);
+		my_bow = instance_create_layer(x, y, "Instances", o_wpn_dis);
 		aim_dir = 0;
 		bow_dist = 8;
 		fire_rate = 30;
@@ -229,12 +231,12 @@ function check_fire()
 			
 			//attaques en fonction du perso
 			if cplayer {
-				var _inst = instance_create_layer(x, y, "Arrow", o_arrow);
+				var _inst = instance_create_layer(x, y, "Arrow", o_shot_dis);
 				audio_play_sound(snd_proj_distance,2,false);
 				o_camera.fire = true;
 				o_camera.shake_value = 0.5;
 			} else {
-				var _inst = instance_create_layer(x, y, "Arrow", o_arrow1);
+				var _inst = instance_create_layer(x, y, "Arrow", o_shot_cac);
 				audio_play_sound(snd_proj_cac,2,false);
 				o_camera.fire = true;
 				o_camera.shake_value = 0.7;

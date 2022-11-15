@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bonus_Malus",
-    "path": "folders/Objects/Bonus_Malus.yy",
+    "name": "Bonus",
+    "path": "folders/Objects/Bonus_Malus/Bonus.yy",
   },
 }

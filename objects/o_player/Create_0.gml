@@ -24,15 +24,15 @@ can_fire = true;
 arrow_speed = 8;
 
 //set des armes et bonus (crétion)
-my_bow = instance_create_layer(x, y, "Instances", o_bow);
+my_bow = instance_create_layer(x, y, "Instances", o_wpn_dis);
 my_shield = noone;
 bonus_speed = false;
 malus_para = false;
 
 //set des sprites joueur
 window_set_cursor(cr_none);
-sp_idle = s_player_idle; 
-sp_walk = s_player_walk; 
-sp_hit = s_player_hit;
-s_bo = s_bow;
-s_bo_shot = s_bow_shot;
+sp_idle = s_player_idle_dis; 
+sp_walk = s_player_walk_dis; 
+sp_hit = s_player_hit_dis;
+s_bo = s_wpn_dis;
+s_bo_shot = s_wpn_dis_shot;
