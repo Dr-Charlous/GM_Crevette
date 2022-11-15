@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "TileSet1",
   "spriteId": {
-    "name": "Tile_Template",
-    "path": "sprites/Tile_Template/Tile_Template.yy",
+    "name": "s_Atlas",
+    "path": "sprites/s_Atlas/s_Atlas.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
