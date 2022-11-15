@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_solid",
   "spriteId": {
-    "name": "RocheWall",
-    "path": "sprites/RocheWall/RocheWall.yy",
+    "name": "Sprite69",
+    "path": "sprites/Sprite69/Sprite69.yy",
   },
   "solid": false,
   "visible": true,

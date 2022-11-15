@@ -50,6 +50,7 @@
     {"id":{"name":"spr_corail_2","path":"sprites/spr_corail_2/spr_corail_2.yy",},"order":9,},
     {"id":{"name":"o_explosion","path":"objects/o_explosion/o_explosion.yy",},"order":1,},
     {"id":{"name":"s_player_idle_cac","path":"sprites/s_player_idle_cac/s_player_idle_cac.yy",},"order":4,},
+    {"id":{"name":"Sprite69","path":"sprites/Sprite69/Sprite69.yy",},"order":2,},
     {"id":{"name":"Room_dev","path":"rooms/Room_dev/Room_dev.yy",},"order":3,},
     {"id":{"name":"o_hole","path":"objects/o_hole/o_hole.yy",},"order":1,},
     {"id":{"name":"o_wpn_enemy_cac","path":"objects/o_wpn_enemy_cac/o_wpn_enemy_cac.yy",},"order":0,},
