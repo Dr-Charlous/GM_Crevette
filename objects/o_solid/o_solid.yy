@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_solid",
   "spriteId": {
-    "name": "s_solid",
-    "path": "sprites/s_solid/s_solid.yy",
+    "name": "RocheSol",
+    "path": "sprites/RocheSol/RocheSol.yy",
   },
   "solid": false,
   "visible": true,
