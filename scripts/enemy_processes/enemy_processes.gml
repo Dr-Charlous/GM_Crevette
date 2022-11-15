@@ -73,6 +73,10 @@ function calc_movement_enemy()
 		with(my_corpse) {
 			sp_dead = other.sp_dead;
 			alarm[0] = 120;
+			o_player.my_score += 100;
+		}
+		with(spawner_id) {
+			spawn -= 1;
 		}
 		instance_destroy();
 	}

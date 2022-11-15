@@ -6,6 +6,7 @@ range_attack = 120;
 facing = 1;
 enemy_type = true;
 hit = false;
+spawner_id = noone;
 
 //bow
 aim_dir = 0;

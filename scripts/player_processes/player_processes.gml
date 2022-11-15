@@ -82,7 +82,11 @@ function calc_movement()
 	
 	//calcul direction de cible en fonction de manette co ou non
 	if gamepad_is_connected(0) {
-		aim_dir = point_direction(x, y, x+gamepad_axis_value(0, gp_axisrh), y+gamepad_axis_value(0, gp_axisrv));
+		if gamepad_axis_value(0, gp_axisrh) == 0 {
+			aim_dir = point_direction(x, y, x+gamepad_axis_value(0, gp_axislh), y+gamepad_axis_value(0, gp_axisrv));
+		} else {
+			aim_dir = point_direction(x, y, x+gamepad_axis_value(0, gp_axisrh), y+gamepad_axis_value(0, gp_axisrv));
+		}
 	} else {
 		aim_dir = point_direction(x, y, mouse_x, mouse_y);
 	}
@@ -99,6 +103,7 @@ function bonus()
 		if life > life_max
 			life = life_max;
 		instance_destroy(instance_nearest(x,y,o_life));
+		my_score += 10;
 	}
 	//set bonus de bouclier
 	if place_meeting(x,y,o_shield) {
@@ -107,6 +112,7 @@ function bonus()
 			my_shield = instance_create_layer(x,y,"Instances",o_shield_player)
 			instance_destroy(instance_nearest(x,y,o_shield));
 			with (my_shield) owner_id = other;
+			my_score += 10;
 		}
 	}
 	//bonus de speed
@@ -115,6 +121,7 @@ function bonus()
 			bonus_speed = true;
 			alarm[2] = 240;
 			instance_destroy(instance_nearest(x,y,o_speed));
+			my_score += 10;
 		}
 	}
 	//malus tétraplégie
@@ -223,11 +230,7 @@ function check_fire()
 			my_bow.sprite_index = s_bo_shot;
 			
 			//direction de tire
-			if gamepad_is_connected(0) {
-				var _dir = point_direction(x, y, x+gamepad_axis_value(0, gp_axisrh), y+gamepad_axis_value(0, gp_axisrv));
-			} else {
-				var _dir = point_direction(x, y, mouse_x, mouse_y);
-			}
+			var _dir = aim_dir;
 			
 			//attaques en fonction du perso
 			if cplayer {

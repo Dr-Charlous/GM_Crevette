@@ -1,6 +1,7 @@
 //paramètres joueur
 life_max = 3;
 life = life_max;
+my_score = 0;
 
 walk_spd_orgn = 3;
 walk_spd = walk_spd_orgn;
