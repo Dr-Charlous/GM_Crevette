@@ -24,6 +24,7 @@
     {"id":{"name":"o_enemy_cac","path":"objects/o_enemy_cac/o_enemy_cac.yy",},"order":0,},
     {"id":{"name":"spr_roche_mur","path":"sprites/spr_roche_mur/spr_roche_mur.yy",},"order":11,},
     {"id":{"name":"Tile_Template","path":"sprites/Tile_Template/Tile_Template.yy",},"order":27,},
+    {"id":{"name":"Tile_Set_Sprite_decor","path":"tilesets/Tile_Set_Sprite_decor/Tile_Set_Sprite_decor.yy",},"order":1,},
     {"id":{"name":"s_enemy_idle_cac","path":"sprites/s_enemy_idle_cac/s_enemy_idle_cac.yy",},"order":3,},
     {"id":{"name":"o_shot_cac","path":"objects/o_shot_cac/o_shot_cac.yy",},"order":2,},
     {"id":{"name":"o_enemy_distance","path":"objects/o_enemy_distance/o_enemy_distance.yy",},"order":1,},
@@ -90,6 +91,7 @@
     {"id":{"name":"o_freeze","path":"objects/o_freeze/o_freeze.yy",},"order":0,},
     {"id":{"name":"o_shot_dis","path":"objects/o_shot_dis/o_shot_dis.yy",},"order":0,},
     {"id":{"name":"spr_etoile_de_merde","path":"sprites/spr_etoile_de_merde/spr_etoile_de_merde.yy",},"order":0,},
+    {"id":{"name":"Atlas_R_cup_r__copie","path":"sprites/Atlas_R_cup_r__copie/Atlas_R_cup_r__copie.yy",},"order":0,},
     {"id":{"name":"s_enemy_dis","path":"sprites/s_enemy_dis/s_enemy_dis.yy",},"order":1,},
     {"id":{"name":"s_shot_cac","path":"sprites/s_shot_cac/s_shot_cac.yy",},"order":3,},
     {"id":{"name":"s_wpn_dis_shot","path":"sprites/s_wpn_dis_shot/s_wpn_dis_shot.yy",},"order":8,},
@@ -152,6 +154,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Projectile","folderPath":"folders/Sprites/Projectile.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"decor_final","folderPath":"folders/Sprites/Decor/decor_final.yy","order":7,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
