@@ -82,7 +82,11 @@ function calc_movement()
 	
 	//calcul direction de cible en fonction de manette co ou non
 	if gamepad_is_connected(0) {
-		aim_dir = point_direction(x, y, x+gamepad_axis_value(0, gp_axisrh), y+gamepad_axis_value(0, gp_axisrv));
+		if gamepad_axis_value(0, gp_axisrh) == 0 {
+			aim_dir = point_direction(x, y, x+gamepad_axis_value(0, gp_axislh), y+gamepad_axis_value(0, gp_axisrv));
+		} else {
+			aim_dir = point_direction(x, y, x+gamepad_axis_value(0, gp_axisrh), y+gamepad_axis_value(0, gp_axisrv));
+		}
 	} else {
 		aim_dir = point_direction(x, y, mouse_x, mouse_y);
 	}
@@ -223,11 +227,7 @@ function check_fire()
 			my_bow.sprite_index = s_bo_shot;
 			
 			//direction de tire
-			if gamepad_is_connected(0) {
-				var _dir = point_direction(x, y, x+gamepad_axis_value(0, gp_axisrh), y+gamepad_axis_value(0, gp_axisrv));
-			} else {
-				var _dir = point_direction(x, y, mouse_x, mouse_y);
-			}
+			var _dir = aim_dir;
 			
 			//attaques en fonction du perso
 			if cplayer {
