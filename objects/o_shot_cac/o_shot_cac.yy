@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_shot_cac",
   "spriteId": {
-    "name": "s_shot_cac",
-    "path": "sprites/s_shot_cac/s_shot_cac.yy",
+    "name": "s_AOE",
+    "path": "sprites/s_AOE/s_AOE.yy",
   },
   "solid": false,
   "visible": true,

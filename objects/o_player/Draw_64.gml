@@ -9,7 +9,7 @@ if o_dev.UI {
 			draw_sprite(s_life_player,0,15+pos_life,15);
 		pos_life += 150;
 	}
-	draw_text(240,120,my_score);
+	draw_text_ext(240,120,my_score,30,300);
 
 	//afficher paramètres si manette connectée
 	if (gamepad_is_connected(0)) {
