@@ -15,4 +15,4 @@ if spawn < spawn_max {
 		}
 	}
 }
-alarm[0] = irandom_range(120, 600);
+alarm[0] = irandom_range(180, 600);
