@@ -74,6 +74,9 @@ function calc_movement_enemy()
 			sp_dead = other.sp_dead;
 			alarm[0] = 120;
 		}
+		with(spawner_id) {
+			spawn -= 1;
+		}
 		instance_destroy();
 	}
 }

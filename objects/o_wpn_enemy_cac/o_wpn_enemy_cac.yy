@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Objects/Enemy.yy",
+    "name": "wpn",
+    "path": "folders/Objects/Enemy/wpn.yy",
   },
 }

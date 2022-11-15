@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_wpn_enemy_dis",
+  "name": "o_spawner",
   "spriteId": {
-    "name": "s_wpn_enemy_dis",
-    "path": "sprites/s_wpn_enemy_dis/s_wpn_enemy_dis.yy",
+    "name": "s_para",
+    "path": "sprites/s_para/s_para.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "wpn",
-    "path": "folders/Objects/Enemy/wpn.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
 }
