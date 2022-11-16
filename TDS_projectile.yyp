@@ -55,7 +55,6 @@
     {"id":{"name":"snd_ambiance","path":"sounds/snd_ambiance/snd_ambiance.yy",},"order":3,},
     {"id":{"name":"spr_pierre_4","path":"sprites/spr_pierre_4/spr_pierre_4.yy",},"order":5,},
     {"id":{"name":"o_shield","path":"objects/o_shield/o_shield.yy",},"order":1,},
-    {"id":{"name":"o_gamepad","path":"objects/o_gamepad/o_gamepad.yy",},"order":4,},
     {"id":{"name":"spr_corail_2","path":"sprites/spr_corail_2/spr_corail_2.yy",},"order":9,},
     {"id":{"name":"o_explosion","path":"objects/o_explosion/o_explosion.yy",},"order":1,},
     {"id":{"name":"s_player_idle_cac","path":"sprites/s_player_idle_cac/s_player_idle_cac.yy",},"order":4,},
