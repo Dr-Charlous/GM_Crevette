@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "TileSet1",
   "spriteId": {
-    "name": "s_Atlas",
-    "path": "sprites/s_Atlas/s_Atlas.yy",
+    "name": "s_TileSolMur",
+    "path": "sprites/s_TileSolMur/s_TileSolMur.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
