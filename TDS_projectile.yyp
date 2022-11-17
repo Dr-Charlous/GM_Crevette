@@ -111,6 +111,7 @@
     {"id":{"name":"s_credits_ga","path":"sprites/s_credits_ga/s_credits_ga.yy",},"order":19,},
     {"id":{"name":"Room_cinematic","path":"rooms/Room_cinematic/Room_cinematic.yy",},"order":7,},
     {"id":{"name":"s_player_walk_cac","path":"sprites/s_player_walk_cac/s_player_walk_cac.yy",},"order":5,},
+    {"id":{"name":"s_bubble_particle","path":"sprites/s_bubble_particle/s_bubble_particle.yy",},"order":10,},
     {"id":{"name":"s_enemy_dead_dis","path":"sprites/s_enemy_dead_dis/s_enemy_dead_dis.yy",},"order":0,},
     {"id":{"name":"spr_algue_2","path":"sprites/spr_algue_2/spr_algue_2.yy",},"order":7,},
     {"id":{"name":"s_enemy_walk_cac","path":"sprites/s_enemy_walk_cac/s_enemy_walk_cac.yy",},"order":4,},
