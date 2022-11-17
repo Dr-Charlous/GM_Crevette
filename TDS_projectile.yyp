@@ -76,7 +76,6 @@
     {"id":{"name":"s_player_walk_dis","path":"sprites/s_player_walk_dis/s_player_walk_dis.yy",},"order":0,},
     {"id":{"name":"o_wpn_cac","path":"objects/o_wpn_cac/o_wpn_cac.yy",},"order":1,},
     {"id":{"name":"s_button","path":"sprites/s_button/s_button.yy",},"order":0,},
-    {"id":{"name":"s_Atlas","path":"sprites/s_Atlas/s_Atlas.yy",},"order":1,},
     {"id":{"name":"spr_atlas_decor_2","path":"sprites/spr_atlas_decor_2/spr_atlas_decor_2.yy",},"order":4,},
     {"id":{"name":"Algues","path":"sprites/Algues/Algues.yy",},"order":10,},
     {"id":{"name":"snd_proj_cac","path":"sounds/snd_proj_cac/snd_proj_cac.yy",},"order":2,},
@@ -90,6 +89,7 @@
     {"id":{"name":"Room_dev","path":"rooms/Room_dev/Room_dev.yy",},"order":6,},
     {"id":{"name":"player_processes","path":"scripts/player_processes/player_processes.yy",},"order":0,},
     {"id":{"name":"s_sfx_piou","path":"sprites/s_sfx_piou/s_sfx_piou.yy",},"order":0,},
+    {"id":{"name":"o_cinematic","path":"objects/o_cinematic/o_cinematic.yy",},"order":5,},
     {"id":{"name":"spr_moule_1","path":"sprites/spr_moule_1/spr_moule_1.yy",},"order":1,},
     {"id":{"name":"s_cursor","path":"sprites/s_cursor/s_cursor.yy",},"order":1,},
     {"id":{"name":"s_wpn_enemy_cac","path":"sprites/s_wpn_enemy_cac/s_wpn_enemy_cac.yy",},"order":7,},
@@ -109,6 +109,7 @@
     {"id":{"name":"o_speed","path":"objects/o_speed/o_speed.yy",},"order":3,},
     {"id":{"name":"spr_algue_1","path":"sprites/spr_algue_1/spr_algue_1.yy",},"order":6,},
     {"id":{"name":"s_credits_ga","path":"sprites/s_credits_ga/s_credits_ga.yy",},"order":19,},
+    {"id":{"name":"Room_cinematic","path":"rooms/Room_cinematic/Room_cinematic.yy",},"order":7,},
     {"id":{"name":"s_player_walk_cac","path":"sprites/s_player_walk_cac/s_player_walk_cac.yy",},"order":5,},
     {"id":{"name":"s_bubble_particle","path":"sprites/s_bubble_particle/s_bubble_particle.yy",},"order":10,},
     {"id":{"name":"s_enemy_dead_dis","path":"sprites/s_enemy_dead_dis/s_enemy_dead_dis.yy",},"order":0,},
@@ -155,6 +156,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room_cinematic","path":"rooms/Room_cinematic/Room_cinematic.yy",},},
     {"roomId":{"name":"Room_Menu","path":"rooms/Room_Menu/Room_Menu.yy",},},
     {"roomId":{"name":"Room_dev","path":"rooms/Room_dev/Room_dev.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -203,6 +205,7 @@
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"04B_30__.TTF","CopyToMask":-1,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Brindi.mp4","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
     "IDEVersion": "2022.9.1.51",
