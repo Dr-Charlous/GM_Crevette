@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_start",
+  "name": "o_resume",
   "spriteId": {
-    "name": "s_play",
-    "path": "sprites/s_play/s_play.yy",
+    "name": "s_resume",
+    "path": "sprites/s_resume/s_resume.yy",
   },
   "solid": false,
   "visible": true,
