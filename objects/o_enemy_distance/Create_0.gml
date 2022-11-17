@@ -28,5 +28,5 @@ vmove   = 0;
 action = 10;
 can_fire_enemy = 0;
 
-my_bow1 = instance_create_depth(x, y, -10, o_wpn_enemy_dis);
-my_bow2 = instance_create_depth(x, y, -10, o_wpn_enemy_dis);
+my_bow1 = instance_create_depth(x, y, 99, o_wpn_enemy_dis);
+my_bow2 = instance_create_depth(x, y, 99, o_wpn_enemy_dis);
