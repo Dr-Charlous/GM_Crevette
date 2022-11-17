@@ -60,12 +60,12 @@ function calc_movement_enemy()
 	randomize();
 	
 	if life == 0 or life < 0 {
-		var chance = irandom_range(1,3);
-		if chance = 1
-			instance_create_layer(x,y,"Instances",o_life);
-		if chance = 2
-			instance_create_layer(x,y,"Instances",o_shield);
+		var chance = irandom_range(1,10);
 		if chance = 3
+			instance_create_layer(x,y,"Instances",o_life);
+		if chance = 4
+			instance_create_layer(x,y,"Instances",o_shield);
+		if chance = 5
 			instance_create_layer(x,y,"Instances",o_speed);
 		instance_destroy(my_bow1);
 		instance_destroy(my_bow2);
