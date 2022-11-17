@@ -10,10 +10,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 70,
-  "bbox_right": 882,
-  "bbox_top": 70,
-  "bbox_bottom": 618,
+  "bbox_left": 64,
+  "bbox_right": 885,
+  "bbox_top": 64,
+  "bbox_bottom": 612,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -28,7 +28,7 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"29b8c30a-54b8-4b5a-8b11-ae080c5e3846",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"04671e75-4574-43a8-ab57-367900f673e8",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -45,7 +45,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"706340ed-3847-4e83-aab0-b6fbcdc9541b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"29b8c30a-54b8-4b5a-8b11-ae080c5e3846","path":"sprites/Atlas_R_cup_r__copie/Atlas_R_cup_r__copie.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"21415a04-42ba-49ef-aa6d-07d8ebaba108","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"04671e75-4574-43a8-ab57-367900f673e8","path":"sprites/Atlas_R_cup_r__copie/Atlas_R_cup_r__copie.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -64,11 +64,11 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1c81e743-4947-4cda-b9f9-6a4a38120237","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"38588020-fdac-4e25-a02d-c84860cfde6f","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "decor_atlas",
-    "path": "folders/Sprites/Decor/decor_atlas.yy",
+    "name": "TDS_projectile",
+    "path": "TDS_projectile.yyp",
   },
 }
