@@ -8,7 +8,7 @@ function menu_pause() {
 		instance_deactivate_layer("Shot");
 		instance_create_layer(mouse_x,mouse_y,"Obj_dev",o_mouse);
 		instance_create_layer(camera_get_view_x(view_camera[0])+270,camera_get_view_y(view_camera[0])+180,"Obj_dev",o_resume);
-		instance_create_layer(camera_get_view_x(view_camera[0])+270,camera_get_view_y(view_camera[0])+240,"Obj_dev",o_option);
+		instance_create_layer(camera_get_view_x(view_camera[0])+270,camera_get_view_y(view_camera[0])+240,"Obj_dev",o_credits);
 		instance_create_layer(camera_get_view_x(view_camera[0])+270,camera_get_view_y(view_camera[0])+300,"Obj_dev",o_quit);
 		instance_create_layer(camera_get_view_x(view_camera[0])+0,camera_get_view_y(view_camera[0])+0,"Obj_dev",o_pause_aff);
 	} else {
@@ -17,7 +17,7 @@ function menu_pause() {
 		instance_activate_layer("Shot");
 		instance_destroy(o_mouse);
 		instance_destroy(o_resume);
-		instance_destroy(o_option);
+		instance_destroy(o_credits);
 		instance_destroy(o_quit);
 		instance_destroy(o_pause_aff);
 	}

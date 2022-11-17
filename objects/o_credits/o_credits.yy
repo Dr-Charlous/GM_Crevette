@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_option",
+  "name": "o_credits",
   "spriteId": {
-    "name": "s_options",
-    "path": "sprites/s_options/s_options.yy",
+    "name": "s_credits",
+    "path": "sprites/s_credits/s_credits.yy",
   },
   "solid": false,
   "visible": true,
