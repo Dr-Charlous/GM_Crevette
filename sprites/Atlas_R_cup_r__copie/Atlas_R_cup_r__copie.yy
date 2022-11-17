@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "decor_final",
-    "path": "folders/Sprites/Decor/decor_final.yy",
+    "name": "decor_atlas",
+    "path": "folders/Sprites/Decor/decor_atlas.yy",
   },
 }
