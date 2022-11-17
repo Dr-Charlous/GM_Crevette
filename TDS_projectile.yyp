@@ -99,6 +99,10 @@
     {"id":{"name":"s_health","path":"sprites/s_health/s_health.yy",},"order":3,},
     {"id":{"name":"o_wpn_dis","path":"objects/o_wpn_dis/o_wpn_dis.yy",},"order":0,},
     {"id":{"name":"o_pause_aff","path":"objects/o_pause_aff/o_pause_aff.yy",},"order":4,},
+<<<<<<< HEAD
+=======
+    {"id":{"name":"s_fx_walk","path":"sprites/s_fx_walk/s_fx_walk.yy",},"order":7,},
+>>>>>>> parent of 352bdea (pause v2 pas opti)
     {"id":{"name":"s_explosion","path":"sprites/s_explosion/s_explosion.yy",},"order":0,},
     {"id":{"name":"s_wpn_cac","path":"sprites/s_wpn_cac/s_wpn_cac.yy",},"order":5,},
     {"id":{"name":"s_spike","path":"sprites/s_spike/s_spike.yy",},"order":2,},
