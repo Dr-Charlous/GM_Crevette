@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "decor_atlas",
-    "path": "folders/Sprites/Decor/decor_atlas.yy",
+    "name": "TDS_projectile",
+    "path": "TDS_projectile.yyp",
   },
 }
