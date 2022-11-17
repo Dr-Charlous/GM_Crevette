@@ -15,6 +15,8 @@ if o_dev.UI {
 	draw_set_color(c_aqua);
 	draw_set_halign(fa_center);
 	draw_text(960,30,my_score);
+	draw_set_font(f_dev);
+	draw_set_halign(fa_left);
 
 	//afficher paramètres si manette connectée
 	if (gamepad_is_connected(0)) {
