@@ -41,6 +41,7 @@
     {"id":{"name":"s_para","path":"sprites/s_para/s_para.yy",},"order":1,},
     {"id":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},"order":0,},
     {"id":{"name":"RocheWall_Top","path":"sprites/RocheWall_Top/RocheWall_Top.yy",},"order":17,},
+    {"id":{"name":"spr_tuto_swap_copie","path":"sprites/spr_tuto_swap_copie/spr_tuto_swap_copie.yy",},"order":3,},
     {"id":{"name":"s_save","path":"sprites/s_save/s_save.yy",},"order":22,},
     {"id":{"name":"SandXRocheSol_LeftRight","path":"sprites/SandXRocheSol_LeftRight/SandXRocheSol_LeftRight.yy",},"order":22,},
     {"id":{"name":"f_dev","path":"fonts/f_dev/f_dev.yy",},"order":1,},
