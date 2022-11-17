@@ -192,6 +192,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Decor","folderPath":"folders/Sprites/Decor.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"decor_atlas","folderPath":"folders/Sprites/Decor/decor_atlas.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"decor_seul_test","folderPath":"folders/Sprites/Decor/decor_seul_test.yy","order":6,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"decor_sol_tut","folderPath":"folders/Sprites/Decor/decor_sol_tut.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Sprites/Enemy.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"cac","folderPath":"folders/Sprites/Enemy/cac.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"distance","folderPath":"folders/Sprites/Enemy/distance.yy","order":6,},
@@ -200,7 +201,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Projectile","folderPath":"folders/Sprites/Projectile.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":1,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"decor_sol_tut","folderPath":"folders/Sprites/Decor/decor_sol_tut.yy","order":8,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},

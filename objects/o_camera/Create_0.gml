@@ -2,6 +2,7 @@
 shake_power = 10;
 shake_value = 0;
 fire = false;
+instance_create_layer(256,128,"Instances",o_player);
 
 //paramètre cam
 view_visible[0] = true;
