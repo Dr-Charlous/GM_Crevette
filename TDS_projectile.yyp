@@ -34,6 +34,7 @@
     {"id":{"name":"o_menu","path":"objects/o_menu/o_menu.yy",},"order":2,},
     {"id":{"name":"o_shot_cac","path":"objects/o_shot_cac/o_shot_cac.yy",},"order":2,},
     {"id":{"name":"o_enemy_distance","path":"objects/o_enemy_distance/o_enemy_distance.yy",},"order":1,},
+    {"id":{"name":"o_resume","path":"objects/o_resume/o_resume.yy",},"order":4,},
     {"id":{"name":"s_para","path":"sprites/s_para/s_para.yy",},"order":1,},
     {"id":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},"order":0,},
     {"id":{"name":"RocheWall_Top","path":"sprites/RocheWall_Top/RocheWall_Top.yy",},"order":17,},
