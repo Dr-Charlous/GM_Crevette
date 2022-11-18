@@ -23,7 +23,7 @@
   "tileAnimationSpeed": 15.0,
   "tileAnimation": {
     "FrameData": [],
-    "SerialiseFrameCount": 0,
+    "SerialiseFrameCount": 1,
   },
   "macroPageTiles": {
     "SerialiseWidth": 0,

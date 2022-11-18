@@ -9,7 +9,7 @@ if results[0] == 0 {
 	video_close();
 }
 
-if keyboard_check_pressed(vk_space) {
+if keyboard_check_pressed(vk_space) or (gamepad_is_connected(0) and gamepad_button_check_pressed(0, gp_face1)) {
 	room_goto(Room1);
 	video_close();
 }
