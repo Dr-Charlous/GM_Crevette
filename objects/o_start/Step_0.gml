@@ -1,5 +1,5 @@
 if place_meeting(x,y,o_mouse) {
-	if mouse_check_button_pressed(mb_left) {
+	if mouse_check_button_pressed(mb_left) or (gamepad_is_connected(0) and gamepad_button_check_pressed(0, gp_face1)) {
 		alarm[0] = 10;
 		pressed = true;
 	}

@@ -1,0 +1,1 @@
+draw_text(100,100,instance_number(o_player));
