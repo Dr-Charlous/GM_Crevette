@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_pause_aff",
   "spriteId": {
-    "name": "s_aff_pause",
-    "path": "sprites/s_aff_pause/s_aff_pause.yy",
+    "name": "s_menu_pause",
+    "path": "sprites/s_menu_pause/s_menu_pause.yy",
   },
   "solid": false,
   "visible": true,
