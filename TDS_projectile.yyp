@@ -192,6 +192,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Objects/Enemy.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"entities","folderPath":"folders/Objects/Enemy/entities.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"wpn","folderPath":"folders/Objects/Enemy/wpn.yy","order":5,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fx","folderPath":"folders/Objects/Fx.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Menu","folderPath":"folders/Objects/Menu.yy","order":6,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Objects/Player.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Projectiles","folderPath":"folders/Objects/Projectiles.yy","order":2,},
@@ -215,7 +216,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Projectile","folderPath":"folders/Sprites/Projectile.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":1,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fx","folderPath":"folders/Objects/Fx.yy","order":7,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
