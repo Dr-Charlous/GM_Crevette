@@ -7,7 +7,7 @@ if spawn < spawn_max {
 	var xspawn = irandom_range(x-hspawn,x+hspawn);
 	var yspawn = irandom_range(y-vspawn,y+vspawn);
 	if !collision_circle(xspawn,yspawn,8,o_solid,false,true) {
-		var obj_enemy = choose(o_enemy_cac,o_enemy_distance);
+		var obj_enemy = o_enemy_cac;
 		instance_create_layer(xspawn,yspawn,"Instances",obj_enemy);
 		spawn += 1;
 		with(obj_enemy) {

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_spawner",
+  "name": "o_spawner_dis",
   "spriteId": {
     "name": "s_para",
     "path": "sprites/s_para/s_para.yy",
