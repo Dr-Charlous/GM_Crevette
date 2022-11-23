@@ -6,6 +6,7 @@ if !place_meeting(x,y,owner_id){
 			if !hit {
 				life -= 2;
 				hit = true;
+				speed = 0;
 				alarm[0] = 20;
 				var _dir = other.direction;
 				hmove = lengthdir_x(walk_spd, _dir);
