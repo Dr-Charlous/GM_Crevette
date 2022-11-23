@@ -149,8 +149,8 @@ function check_fire_enemy()
 				var _inst = instance_create_layer(x, y, "Shot", o_shot_cac);
 				audio_play_sound(snd_proj_cac,2,false);
 			} else if enemy_type == 3 {
-				//var _inst = instance_create_layer(x, y, "Shot", o_shot_cac);
-				//audio_play_sound(snd_proj_cac,2,false);
+				var _inst = instance_create_layer(x, y, "Shot", o_shot_cac);
+				audio_play_sound(snd_proj_cac,2,false);
 			}
 			
 			//set de l'attaque en gros comme player
