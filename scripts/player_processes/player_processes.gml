@@ -174,7 +174,7 @@ function anim()
 		sp_hit = s_player_hit_cac;
 		s_bo = s_wpn_cac;
 		s_bo_shot = s_wpn_cac_shot;
-		s_swap = s_swap_cac;
+		s_swap_perso = s_swap_cac;
 		instance_destroy(my_bow);
 		my_bow = instance_create_depth(x, y, 99, o_wpn_cac);
 		aim_dir = 0;
@@ -189,7 +189,7 @@ function anim()
 		sp_hit = s_player_hit_dis;
 		s_bo = s_wpn_dis;
 		s_bo_shot = s_wpn_dis_shot;
-		s_swap = s_swap_dis;
+		s_swap_perso = s_swap_dis;
 		instance_destroy(my_bow);
 		my_bow = instance_create_layer(x, y, "Instances", o_wpn_dis);
 		aim_dir = 0;
