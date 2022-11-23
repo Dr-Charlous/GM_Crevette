@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_explosion",
   "spriteId": {
-    "name": "s_explosion",
-    "path": "sprites/s_explosion/s_explosion.yy",
+    "name": "s_hit_feedback",
+    "path": "sprites/s_hit_feedback/s_hit_feedback.yy",
   },
   "solid": false,
   "visible": true,
