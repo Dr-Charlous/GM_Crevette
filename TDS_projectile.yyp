@@ -153,6 +153,7 @@
     {"id":{"name":"o_quit","path":"objects/o_quit/o_quit.yy",},"order":2,},
     {"id":{"name":"s_enemy_dis","path":"sprites/s_enemy_dis/s_enemy_dis.yy",},"order":1,},
     {"id":{"name":"s_shot_cac","path":"sprites/s_shot_cac/s_shot_cac.yy",},"order":3,},
+    {"id":{"name":"Sprite105","path":"sprites/Sprite105/Sprite105.yy",},"order":15,},
     {"id":{"name":"spr_light_sand_side","path":"sprites/spr_light_sand_side/spr_light_sand_side.yy",},"order":28,},
     {"id":{"name":"s_wpn_dis_shot","path":"sprites/s_wpn_dis_shot/s_wpn_dis_shot.yy",},"order":8,},
     {"id":{"name":"spr_anim_bulle","path":"sprites/spr_anim_bulle/spr_anim_bulle.yy",},"order":26,},
