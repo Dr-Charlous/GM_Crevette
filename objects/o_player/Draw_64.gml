@@ -18,5 +18,5 @@ if o_dev.UI {
 	draw_set_font(f_dev);
 	draw_set_halign(fa_left);
 	
-	draw_sprite(s_swap,0,30,60);
+	draw_sprite(s_swap_perso,0,30,60);
 }
