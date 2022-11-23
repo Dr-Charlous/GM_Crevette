@@ -27,6 +27,7 @@
     {"id":{"name":"spr_sol_tuto","path":"sprites/spr_sol_tuto/spr_sol_tuto.yy",},"order":11,},
     {"id":{"name":"o_spike","path":"objects/o_spike/o_spike.yy",},"order":2,},
     {"id":{"name":"o_life","path":"objects/o_life/o_life.yy",},"order":0,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":10,},
     {"id":{"name":"spr_roche_mur_dessus_2","path":"sprites/spr_roche_mur_dessus_2/spr_roche_mur_dessus_2.yy",},"order":13,},
     {"id":{"name":"spr_mur_roche_bas","path":"sprites/spr_mur_roche_bas/spr_mur_roche_bas.yy",},"order":25,},
     {"id":{"name":"o_enemy_cac","path":"objects/o_enemy_cac/o_enemy_cac.yy",},"order":0,},
@@ -136,7 +137,6 @@
     {"id":{"name":"spr_algue_2","path":"sprites/spr_algue_2/spr_algue_2.yy",},"order":7,},
     {"id":{"name":"s_enemy_walk_cac","path":"sprites/s_enemy_walk_cac/s_enemy_walk_cac.yy",},"order":4,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":2,},
     {"id":{"name":"tile_set_sprite_decor_2","path":"tilesets/tile_set_sprite_decor_2/tile_set_sprite_decor_2.yy",},"order":2,},
     {"id":{"name":"s_menu_anim","path":"sprites/s_menu_anim/s_menu_anim.yy",},"order":25,},
     {"id":{"name":"s_life_shield_player","path":"sprites/s_life_shield_player/s_life_shield_player.yy",},"order":3,},
@@ -180,11 +180,11 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room_Menu","path":"rooms/Room_Menu/Room_Menu.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_CharTest","path":"rooms/Room_CharTest/Room_CharTest.yy",},},
     {"roomId":{"name":"Room_dev","path":"rooms/Room_dev/Room_dev.yy",},},
     {"roomId":{"name":"Room_cinematic","path":"rooms/Room_cinematic/Room_cinematic.yy",},},
     {"roomId":{"name":"Room_credits","path":"rooms/Room_credits/Room_credits.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy","order":7,},
