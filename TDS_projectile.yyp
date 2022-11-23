@@ -137,7 +137,6 @@
     {"id":{"name":"s_enemy_walk_cac","path":"sprites/s_enemy_walk_cac/s_enemy_walk_cac.yy",},"order":4,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":2,},
-    {"id":{"name":"Room_Jeu","path":"rooms/Room_Jeu/Room_Jeu.yy",},"order":9,},
     {"id":{"name":"tile_set_sprite_decor_2","path":"tilesets/tile_set_sprite_decor_2/tile_set_sprite_decor_2.yy",},"order":2,},
     {"id":{"name":"s_menu_anim","path":"sprites/s_menu_anim/s_menu_anim.yy",},"order":25,},
     {"id":{"name":"s_life_shield_player","path":"sprites/s_life_shield_player/s_life_shield_player.yy",},"order":3,},
@@ -185,11 +184,7 @@
     {"roomId":{"name":"Room_CharTest","path":"rooms/Room_CharTest/Room_CharTest.yy",},},
     {"roomId":{"name":"Room_dev","path":"rooms/Room_dev/Room_dev.yy",},},
     {"roomId":{"name":"Room_cinematic","path":"rooms/Room_cinematic/Room_cinematic.yy",},},
-<<<<<<< HEAD
-    {"roomId":{"name":"Room_Jeu","path":"rooms/Room_Jeu/Room_Jeu.yy",},},
-=======
     {"roomId":{"name":"Room_credits","path":"rooms/Room_credits/Room_credits.yy",},},
->>>>>>> a98d68519f54fb2be6fd83ed46a4987cc7046556
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy","order":7,},
