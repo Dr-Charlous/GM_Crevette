@@ -2,9 +2,9 @@ life = 3;
 walk_spd_orgn = 0.5;
 walk_spd = walk_spd_orgn;
 range_view = 180;
-range_attack = 120;
+range_attack = 100;
 facing = 1;
-enemy_type = true;
+enemy_type = 3;
 hit = false;
 spawner_id = noone;
 

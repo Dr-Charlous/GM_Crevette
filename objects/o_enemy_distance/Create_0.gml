@@ -4,7 +4,7 @@ walk_spd = walk_spd_orgn;
 range_view = 180;
 range_attack = 120;
 facing = 1;
-enemy_type = true;
+enemy_type = 2;
 hit = false;
 spawner_id = noone;
 

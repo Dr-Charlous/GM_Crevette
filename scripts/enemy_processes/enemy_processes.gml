@@ -142,12 +142,15 @@ function check_fire_enemy()
 			var _dir = point_direction(x, y, o_player.x, o_player.y);
 			
 			//type d'attaque en fonction de l'ennemi
-			if enemy_type {
+			if enemy_type == 1 {
 				var _inst = instance_create_layer(x, y, "Shot", o_shot_dis);
 				audio_play_sound(snd_proj_distance,2,false);
-			} else {
+			} else if enemy_type == 2 {
 				var _inst = instance_create_layer(x, y, "Shot", o_shot_cac);
 				audio_play_sound(snd_proj_cac,2,false);
+			} else if enemy_type == 3 {
+				//var _inst = instance_create_layer(x, y, "Shot", o_shot_cac);
+				//audio_play_sound(snd_proj_cac,2,false);
 			}
 			
 			//set de l'attaque en gros comme player
