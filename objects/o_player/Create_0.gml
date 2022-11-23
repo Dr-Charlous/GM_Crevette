@@ -37,4 +37,4 @@ sp_walk = s_player_walk_dis;
 sp_hit = s_player_hit_dis;
 s_bo = s_wpn_dis;
 s_bo_shot = s_wpn_dis_shot;
-s_swap = s_swap_dis;
+s_swap_perso = s_swap_dis;

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_pause_aff",
   "spriteId": {
-    "name": "s_menu_pause",
-    "path": "sprites/s_menu_pause/s_menu_pause.yy",
+    "name": "s_menu_anim",
+    "path": "sprites/s_menu_anim/s_menu_anim.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,6 +26,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
