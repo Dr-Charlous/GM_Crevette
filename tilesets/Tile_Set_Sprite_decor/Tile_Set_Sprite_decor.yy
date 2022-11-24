@@ -2,10 +2,7 @@
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
   "name": "Tile_Set_Sprite_decor",
-  "spriteId": {
-    "name": "Atlas_R_cup_r__copie",
-    "path": "sprites/Atlas_R_cup_r__copie/Atlas_R_cup_r__copie.yy",
-  },
+  "spriteId": null,
   "tileWidth": 16,
   "tileHeight": 16,
   "tilexoff": 0,
