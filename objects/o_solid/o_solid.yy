@@ -3,13 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_solid",
   "spriteId": {
-<<<<<<< Updated upstream
     "name": "blocs_coll",
     "path": "sprites/blocs_coll/blocs_coll.yy",
-=======
-    "name": "spr_sol_Roche",
-    "path": "sprites/spr_sol_Roche/spr_sol_Roche.yy",
->>>>>>> Stashed changes
   },
   "solid": false,
   "visible": true,
