@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Bonus",
-    "path": "folders/Sprites/Bonus_Malus/Bonus.yy",
+    "path": "folders/Sprites/Bonus_Malus/spr_deco/Bonus.yy",
   },
 }

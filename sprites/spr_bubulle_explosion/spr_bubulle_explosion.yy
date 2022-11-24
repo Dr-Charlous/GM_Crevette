@@ -80,7 +80,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "decor_seul_test",
-    "path": "folders/Sprites/Decor/decor_seul_test.yy",
+    "name": "spr_deco",
+    "path": "folders/Sprites/Bonus_Malus/spr_deco.yy",
   },
 }

@@ -127,7 +127,7 @@ function bonus()
 	//malus tétraplégie
 	if place_meeting(x,y,o_freeze) {
 		malus_para = true;
-		alarm[2] = 240;
+		alarm[2] = 90;
 		instance_destroy(instance_nearest(x,y,o_freeze));
 	}
 }

@@ -1,9 +1,9 @@
 //paramètres joueur
-life_max = 3;
+life_max = 5;
 life = life_max;
 my_score = 0;
 
-walk_spd_orgn = 2;
+walk_spd_orgn = 2.5;
 walk_spd = walk_spd_orgn;
 
 candash = true;
