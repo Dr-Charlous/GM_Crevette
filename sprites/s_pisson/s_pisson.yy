@@ -82,7 +82,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "spr_deco",
-    "path": "folders/Sprites/Decor/spr_deco.yy",
+    "name": "decor_fx_gamefeel",
+    "path": "folders/Sprites/Decor/decor_fx_gamefeel.yy",
   },
 }

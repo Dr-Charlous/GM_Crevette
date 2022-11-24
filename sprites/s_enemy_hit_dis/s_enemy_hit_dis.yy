@@ -28,11 +28,11 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d1afe0b-7f27-4de7-bf28-fd35b1c8d377",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28023c48-fc2a-4d9c-9bd4-19b56a48dc0a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5db21d8c-693b-4291-9f98-7593c024bc30",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"32579e1c-42e1-45c9-90d1-c5e64c95ded7",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b5c02828-a3e1-43ca-bed0-a3ace6f99dd8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"eca0608c-c9d9-404d-80e5-656663e4ba8e",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b4ee2516-995b-4ca1-b407-9b238bce7f66",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b8877bdb-31ab-4514-8ba6-15070bd2e640",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4322cfd2-9bf7-45b4-a08c-f35d3225c12a",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"588ae3c0-5ce8-4283-bc73-bc9cde02a232",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -49,11 +49,11 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d5d61ff1-f593-4f17-a4de-64ea778edc3e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1d1afe0b-7f27-4de7-bf28-fd35b1c8d377","path":"sprites/s_enemy_hit_dis/s_enemy_hit_dis.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"f1ce47af-e515-4d09-aea1-7e36ea812f02","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28023c48-fc2a-4d9c-9bd4-19b56a48dc0a","path":"sprites/s_enemy_hit_dis/s_enemy_hit_dis.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"72040dd7-a055-4b35-a1b3-3fc35952fb7c","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5db21d8c-693b-4291-9f98-7593c024bc30","path":"sprites/s_enemy_hit_dis/s_enemy_hit_dis.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"1f929dbe-28e1-49fa-914b-5a4182aa3b41","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"32579e1c-42e1-45c9-90d1-c5e64c95ded7","path":"sprites/s_enemy_hit_dis/s_enemy_hit_dis.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"fe62dbaf-bdc9-4110-a2b0-3c0b534da316","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b5c02828-a3e1-43ca-bed0-a3ace6f99dd8","path":"sprites/s_enemy_hit_dis/s_enemy_hit_dis.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"851d733c-0f74-4716-8954-5e8e553dea1c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eca0608c-c9d9-404d-80e5-656663e4ba8e","path":"sprites/s_enemy_hit_dis/s_enemy_hit_dis.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f426cf64-aaa4-448f-b987-9d970e107010","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b4ee2516-995b-4ca1-b407-9b238bce7f66","path":"sprites/s_enemy_hit_dis/s_enemy_hit_dis.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"21cccd51-b8c2-4cd7-be0c-24f4ccf1e0df","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8877bdb-31ab-4514-8ba6-15070bd2e640","path":"sprites/s_enemy_hit_dis/s_enemy_hit_dis.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1776321b-9f10-4339-a018-d62a8bf87528","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4322cfd2-9bf7-45b4-a08c-f35d3225c12a","path":"sprites/s_enemy_hit_dis/s_enemy_hit_dis.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"edcb6717-3e02-43c4-aa11-7c92129b21ee","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"588ae3c0-5ce8-4283-bc73-bc9cde02a232","path":"sprites/s_enemy_hit_dis/s_enemy_hit_dis.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
@@ -72,7 +72,7 @@
     "eventStubScript": null,
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"82f68e82-b20b-4b7c-a19a-17ce82b0495d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a5825b84-311c-4888-9dc3-b58fdf264254","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
