@@ -9,7 +9,7 @@ function reset_variables()
 	vmove   = 0;
 	
 	//apparition curseur ou non en fonction de manette co ou non
-	if gamepad_is_connected(0) {
+	if gamepad_is_connected(0) or !o_dev.UI {
 		cursor_sprite = noone;
 	} else {
 		cursor_sprite = s_cursor;
