@@ -39,9 +39,6 @@ function calc_movement_enemy()
 				vmove = 0;
 			}
 		}
-	} else {
-		hmove = 0;
-		vmove = 0;
 	}
 	
 	//miroir ou non
