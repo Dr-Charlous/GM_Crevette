@@ -32,12 +32,16 @@ function get_input()
 	}
 }
 
-function calc_movement()
-{
+function life_aff() {
+	
+	
 	//condition de mort
 	if life == 0 or life < 0
 		room_restart();
-	
+}
+
+function calc_movement()
+{
 	//direction pour afficher mirroir ou non
 	var _facing = (aim_dir < 90 or aim_dir > 270);
 	if(_facing == 0)
