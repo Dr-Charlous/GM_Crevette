@@ -10,13 +10,13 @@ for (var i = 0; i < life; i++) {
 }
 my_score = 0;
 
-walk_spd_orgn = 3;
+walk_spd_orgn = 2;
 walk_spd = walk_spd_orgn;
 
 candash = true;
-dash_spd = 7;
-dash_time = 10;
-dash_cooldown = 120;
+dash_spd = 10;
+dash_time = 5;
+dash_cooldown = 60;
 
 facing = 1; //direction sprite
 ftime = true; //activation dash
@@ -29,7 +29,7 @@ aim_dir = 0;
 bow_dist = 8;
 fire_rate = 30;
 can_fire = true;
-arrow_speed = 8;
+arrow_speed = 16;
 
 //set des armes et bonus (crétion)
 my_bow = instance_create_layer(x, y, "Instances", o_wpn_dis);
