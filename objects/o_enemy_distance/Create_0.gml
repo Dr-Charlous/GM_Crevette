@@ -1,8 +1,8 @@
-life = 3;
+life = 4;
 walk_spd_orgn = 0.5;
 walk_spd = walk_spd_orgn;
-range_view = 180;
-range_attack = 120;
+range_view = 200;
+range_attack = 175;
 facing = 1;
 enemy_type = 1;
 hit = false;

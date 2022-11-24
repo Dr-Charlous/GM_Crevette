@@ -82,7 +82,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "TDS_projectile",
-    "path": "TDS_projectile.yyp",
+    "name": "spr_deco",
+    "path": "folders/Sprites/Decor/spr_deco.yy",
   },
 }

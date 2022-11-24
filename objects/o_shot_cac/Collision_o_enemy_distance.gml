@@ -4,7 +4,7 @@ if !place_meeting(x,y,owner_id){
 		with(other) {
 			audio_play_sound(snd_hit,2,false);
 			if !hit {
-				life -= 2;
+				life -= 3;
 				hit = true;
 				speed = 0;
 				alarm[0] = 20;
