@@ -1,42 +1,47 @@
 function calc_movement_enemy()
 {	
-	if !hit {
-		//mouvement si joueur pas vu
-		if(!collision_circle(x,y,range_view,o_player,false,false)) {
-			counter += 1;
-			if(counter >= action) {
-				var moov = irandom_range(0,5);
-				if(moov = 1) {
-					hmove = -1;
-				} else if(moov = 2) {
-					hmove = 1;
-				} else if(moov = 3) {
-					vmove = -1;
-				} else if(moov = 4) {
-					vmove = 1;
-				} else {
-					hmove   = 0;
-					vmove   = 0;
+	if !place_meeting(x,y,o_enemy_parent){
+		if !hit {
+			//mouvement si joueur pas vu
+			if(!collision_circle(x,y,range_view,o_player,false,false)) {
+				counter += 1;
+				if(counter >= action) {
+					var moov = irandom_range(0,5);
+					if(moov = 1) {
+						hmove = -1;
+					} else if(moov = 2) {
+						hmove = 1;
+					} else if(moov = 3) {
+						vmove = -1;
+					} else if(moov = 4) {
+						vmove = 1;
+					} else {
+						hmove   = 0;
+						vmove   = 0;
+					}
+					counter = 0;
+					action = irandom_range(10, 40);
 				}
-				counter = 0;
-				action = irandom_range(10, 40);
+				//correction bug diagonales
+				var _dir = point_direction(0, 0, hmove, vmove);
+				hmove = lengthdir_x(walk_spd, _dir);
+				vmove = lengthdir_y(walk_spd, _dir);
+		
+				//mouvement vers joueur si vue
+			} else if (collision_circle(x,y,range_view,o_player,false,false) and !collision_circle(x,y,range_attack,o_player,false,false)) {
+				var _dir = point_direction(x, y, o_player.x, o_player.y);
+				hmove = lengthdir_x(walk_spd, _dir);
+				vmove = lengthdir_y(walk_spd, _dir);
+		
+				//heure de la pause thé :)
+			} else {
+				hmove = 0;
+				vmove = 0;
 			}
-			//correction bug diagonales
-			var _dir = point_direction(0, 0, hmove, vmove);
-			hmove = lengthdir_x(walk_spd, _dir);
-			vmove = lengthdir_y(walk_spd, _dir);
-		
-			//mouvement vers joueur si vue
-		} else if (collision_circle(x,y,range_view,o_player,false,false) and !collision_circle(x,y,range_attack,o_player,false,false)) {
-			var _dir = point_direction(x, y, o_player.x, o_player.y);
-			hmove = lengthdir_x(walk_spd, _dir);
-			vmove = lengthdir_y(walk_spd, _dir);
-		
-			//heure de la pause thé :)
-		} else {
-			hmove = 0;
-			vmove = 0;
 		}
+	} else {
+		hmove = 0;
+		vmove = 0;
 	}
 	
 	//miroir ou non
@@ -117,10 +122,10 @@ function anim_enemy()
 {
 	//animations ennemis et projectiles
 		aim_dir = 0;
-		//bow_dist = 8;
-		//fire_rate = 30;
+		bow_dist = 8;
+		fire_rate = 30;
 		//can_fire = true;
-		//arrow_speed = 8;
+		arrow_speed = 8;
 	
 	//marche ou idle
 	if hit {
