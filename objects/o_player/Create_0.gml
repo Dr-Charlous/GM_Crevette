@@ -1,13 +1,6 @@
 //paramètres joueur
 life_max = 3;
 life = life_max;
-list_life = ds_list_create();
-for (var i = 0; i < 1000; i++) {
-	list_life[i] = 0;
-}
-for (var i = 0; i < life; i++) {
-	list_life[i] = 1;
-}
 my_score = 0;
 
 walk_spd_orgn = 2;

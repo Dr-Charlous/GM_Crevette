@@ -5,7 +5,7 @@ if !place_meeting(x,y,owner_id){
 			audio_play_sound(snd_hit,2,false);
 			life -= 2;
 			hit = true;
-			alarm[0] = 10;
+			alarm[0] = 30;
 			var _dir = other.direction;
 			hmove = lengthdir_x(walk_spd, _dir);
 			vmove = lengthdir_y(walk_spd, _dir);
