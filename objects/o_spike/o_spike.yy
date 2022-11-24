@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_spike",
   "spriteId": {
-    "name": "Spr_oursin_grand",
-    "path": "sprites/Spr_oursin_grand/Spr_oursin_grand.yy",
+    "name": "s_spike",
+    "path": "sprites/s_spike/s_spike.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,6 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
