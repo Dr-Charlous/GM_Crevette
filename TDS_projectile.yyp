@@ -37,7 +37,6 @@
     {"id":{"name":"spr_sol_tuto","path":"sprites/spr_sol_tuto/spr_sol_tuto.yy",},"order":11,},
     {"id":{"name":"o_spike","path":"objects/o_spike/o_spike.yy",},"order":2,},
     {"id":{"name":"o_life","path":"objects/o_life/o_life.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":10,},
     {"id":{"name":"spr_roche_mur_dessus_2","path":"sprites/spr_roche_mur_dessus_2/spr_roche_mur_dessus_2.yy",},"order":13,},
     {"id":{"name":"spr_mur_roche_bas","path":"sprites/spr_mur_roche_bas/spr_mur_roche_bas.yy",},"order":25,},
     {"id":{"name":"o_enemy_cac","path":"objects/o_enemy_cac/o_enemy_cac.yy",},"order":0,},
@@ -242,7 +241,6 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Room_Menu","path":"rooms/Room_Menu/Room_Menu.yy",},},
     {"roomId":{"name":"Room_dev","path":"rooms/Room_dev/Room_dev.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_CharTest","path":"rooms/Room_CharTest/Room_CharTest.yy",},},
     {"roomId":{"name":"Room_cinematic","path":"rooms/Room_cinematic/Room_cinematic.yy",},},
     {"roomId":{"name":"Room_credits","path":"rooms/Room_credits/Room_credits.yy",},},
