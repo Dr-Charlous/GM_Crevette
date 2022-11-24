@@ -14,10 +14,7 @@
     "path": "sprites/s_player_idle_dis/s_player_idle_dis.yy",
   },
   "persistent": false,
-  "parentObjectId": {
-    "name": "o_enemy_parent",
-    "path": "objects/o_enemy_parent/o_enemy_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
