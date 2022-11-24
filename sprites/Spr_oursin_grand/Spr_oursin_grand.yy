@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Spr_oursin_grand",
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 2,
   "type": 0,
   "origin": 4,
