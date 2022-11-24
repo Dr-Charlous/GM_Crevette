@@ -1,2 +1,3 @@
 can_hurt = true;
-cooldown = 30;
+cooldown = 90;
+recul = 12;
