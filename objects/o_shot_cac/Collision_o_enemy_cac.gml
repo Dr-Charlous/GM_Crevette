@@ -1,12 +1,13 @@
 //collision et perte de vie :I
 if !place_meeting(x,y,owner_id){
 		//arrow_die();
-		if !other.hit {
-			with(other) {
-				audio_play_sound(snd_hit,2,false);
+		with(other) {
+			audio_play_sound(snd_hit,2,false);
+			if !hit {
 				life -= 1;
 				hit = true;
-				alarm[0] = 30;
+				speed = 0;
+				alarm[0] = 20;
 				var _dir = other.direction;
 				hmove = lengthdir_x(walk_spd, _dir);
 				vmove = lengthdir_y(walk_spd, _dir);

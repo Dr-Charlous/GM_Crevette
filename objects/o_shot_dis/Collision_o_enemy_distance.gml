@@ -14,8 +14,4 @@ if !place_meeting(x,y,owner_id){
 				y += vmove*other.recul;
 			}
 		}
-}// Vous pouvez écrire votre code dans cet éditeur
-
-
-
-
+}
