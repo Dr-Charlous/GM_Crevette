@@ -16,7 +16,6 @@
     {"id":{"name":"o_dev","path":"objects/o_dev/o_dev.yy",},"order":1,},
     {"id":{"name":"o_shield_player","path":"objects/o_shield_player/o_shield_player.yy",},"order":2,},
     {"id":{"name":"spr_sol_Roche","path":"sprites/spr_sol_Roche/spr_sol_Roche.yy",},"order":14,},
-    {"id":{"name":"s_swap","path":"sprites/s_swap/s_swap.yy",},"order":13,},
     {"id":{"name":"s_wpn_cac_shot","path":"sprites/s_wpn_cac_shot/s_wpn_cac_shot.yy",},"order":8,},
     {"id":{"name":"s_swap_dis","path":"sprites/s_swap_dis/s_swap_dis.yy",},"order":3,},
     {"id":{"name":"s_enemy_cac","path":"sprites/s_enemy_cac/s_enemy_cac.yy",},"order":0,},
