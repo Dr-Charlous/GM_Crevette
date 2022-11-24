@@ -18,7 +18,7 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Fade","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C148213","properties":[],"isDnd":false,"objectId":{"name":"o_fade_in","path":"objects/o_fade_in/o_fade_in.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,},
-      ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+      ],"visible":false,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Obj_dev","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61CF621E_1","properties":[],"isDnd":false,"objectId":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_267BD20A_1","properties":[],"isDnd":false,"objectId":{"name":"o_dev","path":"objects/o_dev/o_dev.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,},
@@ -32,6 +32,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7BB0633E_1","properties":[],"isDnd":false,"objectId":{"name":"o_spawner_cac","path":"objects/o_spawner_cac/o_spawner_cac.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2C8A9053_1","properties":[],"isDnd":false,"objectId":{"name":"o_spawner_cac","path":"objects/o_spawner_cac/o_spawner_cac.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E1EC12B_1","properties":[],"isDnd":false,"objectId":{"name":"o_spawner_cac","path":"objects/o_spawner_cac/o_spawner_cac.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":448.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_307B237E","properties":[],"isDnd":false,"objectId":{"name":"o_shield","path":"objects/o_shield/o_shield.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":128.0,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Shot","instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Vegetation","tilesetId":{"name":"Tile_Set_Sprite_decor","path":"tilesets/Tile_Set_Sprite_decor/Tile_Set_Sprite_decor.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":157,"SerialiseHeight":157,"TileCompressedData":[
@@ -1784,6 +1785,7 @@
     {"name":"inst_61CF621E_1","path":"rooms/Room_dev/Room_dev.yy",},
     {"name":"inst_267BD20A_1","path":"rooms/Room_dev/Room_dev.yy",},
     {"name":"inst_7C148213","path":"rooms/Room_dev/Room_dev.yy",},
+    {"name":"inst_307B237E","path":"rooms/Room_dev/Room_dev.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

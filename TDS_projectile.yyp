@@ -96,6 +96,7 @@
     {"id":{"name":"s_player_idle_cac","path":"sprites/s_player_idle_cac/s_player_idle_cac.yy",},"order":4,},
     {"id":{"name":"s_dash","path":"sprites/s_dash/s_dash.yy",},"order":9,},
     {"id":{"name":"spr_bernard_walk","path":"sprites/spr_bernard_walk/spr_bernard_walk.yy",},"order":0,},
+    {"id":{"name":"o_enemy_parent","path":"objects/o_enemy_parent/o_enemy_parent.yy",},"order":5,},
     {"id":{"name":"o_credits","path":"objects/o_credits/o_credits.yy",},"order":1,},
     {"id":{"name":"o_hole","path":"objects/o_hole/o_hole.yy",},"order":1,},
     {"id":{"name":"spr_tag_crabe","path":"sprites/spr_tag_crabe/spr_tag_crabe.yy",},"order":4,},
@@ -241,8 +242,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room_Menu","path":"rooms/Room_Menu/Room_Menu.yy",},},
     {"roomId":{"name":"Room_dev","path":"rooms/Room_dev/Room_dev.yy",},},
+    {"roomId":{"name":"Room_Menu","path":"rooms/Room_Menu/Room_Menu.yy",},},
     {"roomId":{"name":"Room_cinematic","path":"rooms/Room_cinematic/Room_cinematic.yy",},},
     {"roomId":{"name":"Room_credits","path":"rooms/Room_credits/Room_credits.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
