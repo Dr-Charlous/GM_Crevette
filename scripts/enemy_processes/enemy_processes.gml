@@ -117,10 +117,10 @@ function anim_enemy()
 {
 	//animations ennemis et projectiles
 		aim_dir = 0;
-		bow_dist = 8;
-		fire_rate = 30;
-		can_fire = true;
-		arrow_speed = 8;
+		//bow_dist = 8;
+		//fire_rate = 30;
+		//can_fire = true;
+		//arrow_speed = 8;
 	
 	//marche ou idle
 	if hit {
