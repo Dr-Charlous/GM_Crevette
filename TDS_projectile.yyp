@@ -190,6 +190,7 @@
     {"id":{"name":"s_enemy_walk_cac","path":"sprites/s_enemy_walk_cac/s_enemy_walk_cac.yy",},"order":4,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":1,},
     {"id":{"name":"Spr_idle_oursin_grand","path":"sprites/Spr_idle_oursin_grand/Spr_idle_oursin_grand.yy",},"order":3,},
+    {"id":{"name":"o_enemy_pieuvre","path":"objects/o_enemy_pieuvre/o_enemy_pieuvre.yy",},"order":3,},
     {"id":{"name":"spr_algue_4","path":"sprites/spr_algue_4/spr_algue_4.yy",},"order":4,},
     {"id":{"name":"spr_corail_3","path":"sprites/spr_corail_3/spr_corail_3.yy",},"order":7,},
     {"id":{"name":"spr_gros_corail","path":"sprites/spr_gros_corail/spr_gros_corail.yy",},"order":21,},
@@ -241,9 +242,9 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room_Menu","path":"rooms/Room_Menu/Room_Menu.yy",},},
+    {"roomId":{"name":"Room_CharTest","path":"rooms/Room_CharTest/Room_CharTest.yy",},},
     {"roomId":{"name":"Room_cinematic","path":"rooms/Room_cinematic/Room_cinematic.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room_CharTest","path":"rooms/Room_CharTest/Room_CharTest.yy",},},
     {"roomId":{"name":"Room_dev","path":"rooms/Room_dev/Room_dev.yy",},},
     {"roomId":{"name":"Room_credits","path":"rooms/Room_credits/Room_credits.yy",},},
   ],
