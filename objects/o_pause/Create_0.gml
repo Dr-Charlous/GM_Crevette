@@ -21,5 +21,6 @@ function menu_pause() {
 		instance_destroy(o_quit);
 		instance_destroy(o_pause_aff);
 		//audio_sound_gain (all, 1 , 2000 );
+		audio_play_sound(snd_cancel,2,false);
 	}
 }

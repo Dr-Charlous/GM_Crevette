@@ -1,1 +1,0 @@
-other.life = 0;

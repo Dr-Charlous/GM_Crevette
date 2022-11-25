@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_proj_distance.mp3",
-  "duration": 1.933042,
+  "soundFile": "snd_proj_distance.wav",
+  "duration": 0.223696,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

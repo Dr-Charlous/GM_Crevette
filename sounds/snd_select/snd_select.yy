@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_hit",
+  "name": "snd_select",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_hit.wav",
-  "duration": 0.135714,
+  "soundFile": "snd_select.wav",
+  "duration": 0.441179,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -1,4 +1,5 @@
 pressed = false;
+A = true;
 
 if(room != Room_Menu) {
 	if o_pause.pause {

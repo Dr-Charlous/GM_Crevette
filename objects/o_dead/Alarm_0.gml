@@ -1,2 +1,2 @@
-alarm[1] = 10;
+alarm[1] = 20;
 dead = false;

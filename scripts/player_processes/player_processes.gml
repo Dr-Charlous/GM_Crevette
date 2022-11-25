@@ -99,6 +99,7 @@ function bonus()
 {
 	//bonus de vie
 	if place_meeting(x,y,o_life) and life<life_max {
+		audio_play_sound(snd_bonus_collect,1,false);
 		life += 2;
 		if life > life_max
 			life = life_max;
@@ -108,6 +109,7 @@ function bonus()
 	//set bonus de bouclier
 	if place_meeting(x,y,o_shield) {
 		if !instance_exists(my_shield) {
+			audio_play_sound(snd_bonus_collect,1,false);
 			alarm[2] = 300;
 			my_shield = instance_create_depth(x,y,99,o_shield_player)
 			instance_destroy(instance_nearest(x,y,o_shield));
@@ -118,6 +120,7 @@ function bonus()
 	//bonus de speed
 	if place_meeting(x,y,o_speed) {
 		if bonus_speed = false {
+			audio_play_sound(snd_bonus_collect,1,false);
 			bonus_speed = true;
 			alarm[2] = 240;
 			instance_destroy(instance_nearest(x,y,o_speed));

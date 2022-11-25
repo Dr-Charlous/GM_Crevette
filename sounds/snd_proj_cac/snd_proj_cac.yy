@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_proj_cac.mp3",
-  "duration": 3.944458,
+  "soundFile": "snd_proj_cac.wav",
+  "duration": 0.322562,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
