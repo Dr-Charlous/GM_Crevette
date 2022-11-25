@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "o_spawner_cac",
   "spriteId": {
-    "name": "s_para",
-    "path": "sprites/s_para/s_para.yy",
+    "name": "s_hole",
+    "path": "sprites/s_hole/s_hole.yy",
   },
   "solid": false,
   "visible": true,

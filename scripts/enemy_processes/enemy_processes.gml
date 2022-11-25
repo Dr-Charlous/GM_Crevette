@@ -22,7 +22,7 @@ function calc_movement_enemy()
 				action = irandom_range(10, 40);
 			}
 			
-			if collision_circle(x,y,12,instance_nearest(x,y,o_trap),false,false) {
+			if collision_circle(x,y,20,instance_nearest(x,y,o_trap),false,false) {
 				var _dir = point_direction(o_trap.x, o_trap.y,0,0);
 			} else {
 				//correction bug diagonales
