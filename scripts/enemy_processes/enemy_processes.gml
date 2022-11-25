@@ -21,18 +21,25 @@ function calc_movement_enemy()
 				counter = 0;
 				action = irandom_range(10, 40);
 			}
-			//correction bug diagonales
-			var _dir = point_direction(0, 0, hmove, vmove);
+			
+			if collision_circle(x,y,12,instance_nearest(x,y,o_trap),false,false) {
+				var _dir = point_direction(o_trap.x, o_trap.y,0,0);
+			} else {
+				//correction bug diagonales
+				var _dir = point_direction(0, 0, hmove, vmove);
+			}
 			hmove = lengthdir_x(walk_spd, _dir);
 			vmove = lengthdir_y(walk_spd, _dir);
-		
+			
 			//mouvement vers joueur si vue
-		} else if (collision_circle(x,y,range_view,o_player,false,false) and !collision_circle(x,y,range_attack,o_player,false,false)) {
-			var _dir = point_direction(x, y, o_player.x, o_player.y);
-			hmove = lengthdir_x(walk_spd, _dir);
-			vmove = lengthdir_y(walk_spd, _dir);
+		} else if !collision_line(x,y,o_player.x,o_player.y,o_solid,false,false) {
+			if (collision_circle(x,y,range_view,o_player,false,false) and !collision_circle(x,y,range_attack,o_player,false,false)) {
+				var _dir = point_direction(x, y, o_player.x, o_player.y);
+				hmove = lengthdir_x(walk_spd, _dir);
+				vmove = lengthdir_y(walk_spd, _dir);
 		
-			//heure de la pause thé :)
+				//heure de la pause thé :)
+			}
 		} else {
 			hmove = 0;
 			vmove = 0;
@@ -141,30 +148,32 @@ function check_fire_enemy()
 		if(can_fire_enemy >= fire_rate*2) {
 			var _dir = point_direction(x, y, o_player.x, o_player.y);
 			
-			//type d'attaque en fonction de l'ennemi
-			if enemy_type == 1 {
-				var _inst = instance_create_layer(x, y, "Shot", o_shot_dis);
-				audio_play_sound(snd_proj_distance,2,false);
-			} 
-			if enemy_type == 2 {
-				var _inst = instance_create_layer(x, y, "Shot", o_shot_cac);
-				audio_play_sound(snd_proj_cac,2,false);
-			} 
-			if enemy_type == 3 {
-				var _inst = instance_create_layer(x, y, "Shot", o_shot_cac);
-				audio_play_sound(snd_proj_cac,2,false);
-			}
+			if !collision_line(x,y,o_player.x,o_player.y,o_solid,false,false) {
+				//type d'attaque en fonction de l'ennemi
+				if enemy_type == 1 {
+					var _inst = instance_create_layer(x, y, "Shot", o_shot_dis);
+					audio_play_sound(snd_proj_distance,2,false);
+				} 
+				if enemy_type == 2 {
+					var _inst = instance_create_layer(x, y, "Shot", o_shot_cac);
+					audio_play_sound(snd_proj_cac,2,false);
+				} 
+				if enemy_type == 3 {
+					var _inst = instance_create_layer(x, y, "Shot", o_shot_cac);
+					audio_play_sound(snd_proj_cac,2,false);
+				}
 			
-			//set de l'attaque en gros comme player
-			bow_dist = 2;
-			with(_inst)
-			{
-				speed = other.arrow_speed;
-				direction = _dir;
-				image_angle = _dir;
-				owner_id = other;
+				//set de l'attaque en gros comme player
+				bow_dist = 2;
+				with(_inst)
+				{
+					speed = other.arrow_speed;
+					direction = _dir;
+					image_angle = _dir;
+					owner_id = other;
+				}
+				can_fire_enemy = 0;
 			}
-			can_fire_enemy = 0;
 		}
 	}
 }

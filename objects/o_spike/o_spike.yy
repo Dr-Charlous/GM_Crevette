@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_trap",
+    "path": "objects/o_trap/o_trap.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

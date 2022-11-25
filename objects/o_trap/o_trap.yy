@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_enemy_parent",
+  "name": "o_trap",
   "spriteId": null,
   "solid": false,
   "visible": true,
