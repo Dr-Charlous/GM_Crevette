@@ -80,7 +80,7 @@ function calc_movement_enemy()
 		instance_destroy(my_bow2);
 		var my_corpse = instance_create_layer(x,y,"Instances",o_dead);
 		with(my_corpse) {
-			sp_dead = other.sp_dead;
+			sprite_index = other.sp_dead;
 			alarm[0] = 120;
 			o_player.my_score += 180;
 		}
