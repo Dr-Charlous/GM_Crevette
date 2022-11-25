@@ -9,7 +9,7 @@ arrow_speed = 2;
 
 //les sprites de l'ennemis en question
 sp_idle = s_enemy_idle_dis;
-sp_shot = s_shot_dis;
+sp_shot = s_shot_pieuvre;
 
 //paramètres d'action du bot
 can_fire_enemy = 0;
