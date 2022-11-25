@@ -1,4 +1,4 @@
-range = 120;
+range = 200;
 spawn = 0;
 spawn_max = 3;
 
