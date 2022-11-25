@@ -2,8 +2,8 @@
 if (!place_meeting(x,y,owner_id) and !instance_exists(o_player.my_shield)){
 		arrow_die();
 		with(other) {
-			audio_play_sound(snd_hit,2,false);
 			if !hit or candash {
+				audio_play_sound(snd_hit,2,false);
 				life -= 1;
 				hit = true;
 				alarm[0] = 10;
