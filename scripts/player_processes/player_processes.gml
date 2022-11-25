@@ -175,6 +175,7 @@ function anim()
 		s_bo = s_wpn_cac;
 		s_bo_shot = s_wpn_cac_shot;
 		s_swap_perso = s_swap_cac;
+		s_para_perso = s_player_para_cac;
 		instance_destroy(my_bow);
 		my_bow = instance_create_depth(x, y, 99, o_wpn_cac);
 		aim_dir = 0;
@@ -190,6 +191,7 @@ function anim()
 		s_bo = s_wpn_dis;
 		s_bo_shot = s_wpn_dis_shot;
 		s_swap_perso = s_swap_dis;
+		s_para_perso = s_player_para_dis;
 		instance_destroy(my_bow);
 		my_bow = instance_create_layer(x, y, "Instances", o_wpn_dis);
 		aim_dir = 0;
@@ -203,14 +205,16 @@ function anim()
 	}
 	
 	//marche ou idle
-	if hit {
+	if malus_para
+		sprite_index = s_para_perso;
+	else if hit 
 		sprite_index = sp_hit;
-	} else {
+	else 
 		if(hmove != 0 or vmove != 0)
 			sprite_index = sp_walk;
 		else
 			sprite_index = sp_idle;
-	}
+	
 }
 
 function check_fire()

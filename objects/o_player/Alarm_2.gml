@@ -1,6 +1,6 @@
 if bonus_speed
 	bonus_speed = false;
-if malus_para
+if malus_para 
 	malus_para = false;
 	
 	

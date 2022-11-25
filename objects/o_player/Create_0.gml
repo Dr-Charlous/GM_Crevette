@@ -38,3 +38,4 @@ sp_hit = s_player_hit_dis;
 s_bo = s_wpn_dis;
 s_bo_shot = s_wpn_dis_shot;
 s_swap_perso = s_swap_dis;
+s_para_perso = s_player_para_dis;
