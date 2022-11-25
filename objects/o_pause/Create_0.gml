@@ -9,9 +9,9 @@ function menu_pause() {
 		instance_deactivate_all(o_wpn_dis);
 		if instance_exists(o_shield_player)
 			instance_deactivate_all(o_shield_player);
-		instance_create_layer(camera_get_view_x(view_camera[0])+270,camera_get_view_y(view_camera[0])+100,"Obj_dev",o_mouse);
-		instance_create_layer(camera_get_view_x(view_camera[0])+270,camera_get_view_y(view_camera[0])+180,"Obj_dev",o_resume);
-		instance_create_layer(camera_get_view_x(view_camera[0])+270,camera_get_view_y(view_camera[0])+240,"Obj_dev",o_quit);
+		instance_create_layer(camera_get_view_x(view_camera[0])+320,camera_get_view_y(view_camera[0])+100,"Obj_dev",o_mouse);
+		instance_create_layer(camera_get_view_x(view_camera[0])+320,camera_get_view_y(view_camera[0])+180,"Obj_dev",o_resume);
+		instance_create_layer(camera_get_view_x(view_camera[0])+320,camera_get_view_y(view_camera[0])+240,"Obj_dev",o_quit);
 		instance_create_layer(camera_get_view_x(view_camera[0]),camera_get_view_y(view_camera[0]),"Obj_dev",o_pause_aff);
 		//audio_sound_gain (all, 0.2 , 2000 );
 	} else {
