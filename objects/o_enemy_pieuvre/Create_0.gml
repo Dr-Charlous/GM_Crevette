@@ -3,7 +3,7 @@ facing = 1;
 //bow
 aim_dir = 0;
 bow_dist = 8;
-fire_rate = 20;
+fire_rate = 30;
 can_fire = true;
 arrow_speed = 2;
 
