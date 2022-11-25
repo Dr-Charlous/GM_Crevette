@@ -3,5 +3,8 @@ if place_meeting(x,y,o_mouse) {
 		alarm[0] = 80;
 		pressed = true;
 		instance_create_layer(0,0,"Fade",o_fade_out);
+		audio_sound_gain(snd, 0 , 2000 );
+		if audio_sound_get_gain(snd) <= 0
+			audio_stop_sound(snd);
 	}
 }

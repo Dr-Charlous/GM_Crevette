@@ -23,4 +23,7 @@ function screen_shake() {
 
 //paramètre audio
 audio_stop_sound(snd_ambiance);
-audio_play_sound(snd_ambiance,1,true);
+
+snd = audio_play_sound(snd_ambiance,1,false);
+audio_sound_gain (snd, 0 , 0 );
+audio_sound_gain (snd, 1 , 3000 );
