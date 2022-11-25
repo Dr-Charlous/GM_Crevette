@@ -33,6 +33,7 @@
     {"id":{"name":"Spr_oursin_petit","path":"sprites/Spr_oursin_petit/Spr_oursin_petit.yy",},"order":0,},
     {"id":{"name":"spr_moyen_pierre_2","path":"sprites/spr_moyen_pierre_2/spr_moyen_pierre_2.yy",},"order":24,},
     {"id":{"name":"o_mouse","path":"objects/o_mouse/o_mouse.yy",},"order":3,},
+    {"id":{"name":"s_shot_pieuvre","path":"sprites/s_shot_pieuvre/s_shot_pieuvre.yy",},"order":10,},
     {"id":{"name":"o_plant","path":"objects/o_plant/o_plant.yy",},"order":0,},
     {"id":{"name":"s_life_player","path":"sprites/s_life_player/s_life_player.yy",},"order":1,},
     {"id":{"name":"s_fx_walk_2","path":"sprites/s_fx_walk_2/s_fx_walk_2.yy",},"order":7,},
