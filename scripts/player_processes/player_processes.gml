@@ -109,7 +109,7 @@ function bonus()
 	if place_meeting(x,y,o_shield) {
 		if !instance_exists(my_shield) {
 			alarm[2] = 300;
-			my_shield = instance_create_layer(x,y,"Instances",o_shield_player)
+			my_shield = instance_create_depth(x,y,99,o_shield_player)
 			instance_destroy(instance_nearest(x,y,o_shield));
 			with (my_shield) owner_id = other;
 			my_score += 10;
